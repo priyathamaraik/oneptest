@@ -1,0 +1,212 @@
+2022-07-19 19:21:11,097 DEBUG org.springframework.web.client.RestTemplate [DiscoveryClient-HeartbeatExecutor-0] Response 200 OK
+2022-07-19 19:21:11,097 DEBUG org.springframework.web.client.RestTemplate [DiscoveryClient-CacheRefreshExecutor-0] Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2022-07-19 19:21:41,119 DEBUG org.springframework.web.client.RestTemplate [DiscoveryClient-CacheRefreshExecutor-0] HTTP GET http://localhost:8761/eureka/apps/delta
+2022-07-19 19:21:41,119 DEBUG org.springframework.web.client.RestTemplate [DiscoveryClient-HeartbeatExecutor-0] HTTP PUT http://localhost:8761/eureka/apps/PREBAP-INDIA-SERVICE/CLAP1557.prodapt.com:prebap-india-service:443?status=UP&lastDirtyTimestamp=1658231013078
+2022-07-19 19:21:41,120 DEBUG org.springframework.web.client.RestTemplate [DiscoveryClient-CacheRefreshExecutor-0] Accept=[application/json, application/*+json]
+2022-07-19 19:21:41,124 DEBUG org.springframework.web.client.RestTemplate [DiscoveryClient-HeartbeatExecutor-0] Accept=[application/json, application/*+json]
+2022-07-19 19:21:41,141 DEBUG org.springframework.web.client.RestTemplate [DiscoveryClient-CacheRefreshExecutor-0] Response 200 OK
+2022-07-19 19:21:41,141 DEBUG org.springframework.web.client.RestTemplate [DiscoveryClient-HeartbeatExecutor-0] Response 200 OK
+2022-07-19 19:21:41,141 DEBUG org.springframework.web.client.RestTemplate [DiscoveryClient-CacheRefreshExecutor-0] Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2022-07-19 19:22:11,155 DEBUG org.springframework.web.client.RestTemplate [DiscoveryClient-CacheRefreshExecutor-0] HTTP GET http://localhost:8761/eureka/apps/delta
+2022-07-19 19:22:11,155 DEBUG org.springframework.web.client.RestTemplate [DiscoveryClient-HeartbeatExecutor-0] HTTP PUT http://localhost:8761/eureka/apps/PREBAP-INDIA-SERVICE/CLAP1557.prodapt.com:prebap-india-service:443?status=UP&lastDirtyTimestamp=1658231013078
+2022-07-19 19:22:11,155 DEBUG org.springframework.web.client.RestTemplate [DiscoveryClient-HeartbeatExecutor-0] Accept=[application/json, application/*+json]
+2022-07-19 19:22:11,155 DEBUG org.springframework.web.client.RestTemplate [DiscoveryClient-CacheRefreshExecutor-0] Accept=[application/json, application/*+json]
+2022-07-19 19:22:11,176 DEBUG org.springframework.web.client.RestTemplate [DiscoveryClient-CacheRefreshExecutor-0] Response 200 OK
+2022-07-19 19:22:11,176 DEBUG org.springframework.web.client.RestTemplate [DiscoveryClient-HeartbeatExecutor-0] Response 200 OK
+2022-07-19 19:22:11,176 DEBUG org.springframework.web.client.RestTemplate [DiscoveryClient-CacheRefreshExecutor-0] Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2022-07-19 19:22:41,195 DEBUG org.springframework.web.client.RestTemplate [DiscoveryClient-CacheRefreshExecutor-0] HTTP GET http://localhost:8761/eureka/apps/delta
+2022-07-19 19:22:41,195 DEBUG org.springframework.web.client.RestTemplate [DiscoveryClient-HeartbeatExecutor-0] HTTP PUT http://localhost:8761/eureka/apps/PREBAP-INDIA-SERVICE/CLAP1557.prodapt.com:prebap-india-service:443?status=UP&lastDirtyTimestamp=1658231013078
+2022-07-19 19:22:41,195 DEBUG org.springframework.web.client.RestTemplate [DiscoveryClient-CacheRefreshExecutor-0] Accept=[application/json, application/*+json]
+2022-07-19 19:22:41,195 DEBUG org.springframework.web.client.RestTemplate [DiscoveryClient-HeartbeatExecutor-0] Accept=[application/json, application/*+json]
+2022-07-19 19:22:41,218 DEBUG org.springframework.web.client.RestTemplate [DiscoveryClient-HeartbeatExecutor-0] Response 200 OK
+2022-07-19 19:22:41,218 DEBUG org.springframework.web.client.RestTemplate [DiscoveryClient-CacheRefreshExecutor-0] Response 200 OK
+2022-07-19 19:22:41,218 DEBUG org.springframework.web.client.RestTemplate [DiscoveryClient-CacheRefreshExecutor-0] Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2022-07-19 19:23:11,230 DEBUG org.springframework.web.client.RestTemplate [DiscoveryClient-CacheRefreshExecutor-0] HTTP GET http://localhost:8761/eureka/apps/delta
+2022-07-19 19:23:11,230 DEBUG org.springframework.web.client.RestTemplate [DiscoveryClient-HeartbeatExecutor-0] HTTP PUT http://localhost:8761/eureka/apps/PREBAP-INDIA-SERVICE/CLAP1557.prodapt.com:prebap-india-service:443?status=UP&lastDirtyTimestamp=1658231013078
+2022-07-19 19:23:11,230 DEBUG org.springframework.web.client.RestTemplate [DiscoveryClient-CacheRefreshExecutor-0] Accept=[application/json, application/*+json]
+2022-07-19 19:23:11,230 DEBUG org.springframework.web.client.RestTemplate [DiscoveryClient-HeartbeatExecutor-0] Accept=[application/json, application/*+json]
+2022-07-19 19:23:11,259 DEBUG org.springframework.web.client.RestTemplate [DiscoveryClient-CacheRefreshExecutor-0] Response 200 OK
+2022-07-19 19:23:11,259 DEBUG org.springframework.web.client.RestTemplate [DiscoveryClient-HeartbeatExecutor-0] Response 200 OK
+2022-07-19 19:23:11,259 DEBUG org.springframework.web.client.RestTemplate [DiscoveryClient-CacheRefreshExecutor-0] Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2022-07-19 19:23:41,276 DEBUG org.springframework.web.client.RestTemplate [DiscoveryClient-CacheRefreshExecutor-0] HTTP GET http://localhost:8761/eureka/apps/delta
+2022-07-19 19:23:41,276 DEBUG org.springframework.web.client.RestTemplate [DiscoveryClient-HeartbeatExecutor-0] HTTP PUT http://localhost:8761/eureka/apps/PREBAP-INDIA-SERVICE/CLAP1557.prodapt.com:prebap-india-service:443?status=UP&lastDirtyTimestamp=1658231013078
+2022-07-19 19:23:41,276 DEBUG org.springframework.web.client.RestTemplate [DiscoveryClient-CacheRefreshExecutor-0] Accept=[application/json, application/*+json]
+2022-07-19 19:23:41,276 DEBUG org.springframework.web.client.RestTemplate [DiscoveryClient-HeartbeatExecutor-0] Accept=[application/json, application/*+json]
+2022-07-19 19:23:41,281 DEBUG org.springframework.web.client.RestTemplate [DiscoveryClient-CacheRefreshExecutor-0] Response 200 OK
+2022-07-19 19:23:41,281 DEBUG org.springframework.web.client.RestTemplate [DiscoveryClient-HeartbeatExecutor-0] Response 200 OK
+2022-07-19 19:23:41,281 DEBUG org.springframework.web.client.RestTemplate [DiscoveryClient-CacheRefreshExecutor-0] Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2022-07-19 19:24:11,297 DEBUG org.springframework.web.client.RestTemplate [DiscoveryClient-CacheRefreshExecutor-0] HTTP GET http://localhost:8761/eureka/apps/delta
+2022-07-19 19:24:11,297 DEBUG org.springframework.web.client.RestTemplate [DiscoveryClient-HeartbeatExecutor-0] HTTP PUT http://localhost:8761/eureka/apps/PREBAP-INDIA-SERVICE/CLAP1557.prodapt.com:prebap-india-service:443?status=UP&lastDirtyTimestamp=1658231013078
+2022-07-19 19:24:11,297 DEBUG org.springframework.web.client.RestTemplate [DiscoveryClient-CacheRefreshExecutor-0] Accept=[application/json, application/*+json]
+2022-07-19 19:24:11,297 DEBUG org.springframework.web.client.RestTemplate [DiscoveryClient-HeartbeatExecutor-0] Accept=[application/json, application/*+json]
+2022-07-19 19:24:11,314 DEBUG org.springframework.web.client.RestTemplate [DiscoveryClient-CacheRefreshExecutor-0] Response 200 OK
+2022-07-19 19:24:11,314 DEBUG org.springframework.web.client.RestTemplate [DiscoveryClient-HeartbeatExecutor-0] Response 200 OK
+2022-07-19 19:24:11,314 DEBUG org.springframework.web.client.RestTemplate [DiscoveryClient-CacheRefreshExecutor-0] Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2022-07-19 19:24:41,323 DEBUG org.springframework.web.client.RestTemplate [DiscoveryClient-CacheRefreshExecutor-0] HTTP GET http://localhost:8761/eureka/apps/delta
+2022-07-19 19:24:41,323 DEBUG org.springframework.web.client.RestTemplate [DiscoveryClient-HeartbeatExecutor-0] HTTP PUT http://localhost:8761/eureka/apps/PREBAP-INDIA-SERVICE/CLAP1557.prodapt.com:prebap-india-service:443?status=UP&lastDirtyTimestamp=1658231013078
+2022-07-19 19:24:41,323 DEBUG org.springframework.web.client.RestTemplate [DiscoveryClient-CacheRefreshExecutor-0] Accept=[application/json, application/*+json]
+2022-07-19 19:24:41,323 DEBUG org.springframework.web.client.RestTemplate [DiscoveryClient-HeartbeatExecutor-0] Accept=[application/json, application/*+json]
+2022-07-19 19:24:41,339 DEBUG org.springframework.web.client.RestTemplate [DiscoveryClient-HeartbeatExecutor-0] Response 200 OK
+2022-07-19 19:24:41,339 DEBUG org.springframework.web.client.RestTemplate [DiscoveryClient-CacheRefreshExecutor-0] Response 200 OK
+2022-07-19 19:24:41,339 DEBUG org.springframework.web.client.RestTemplate [DiscoveryClient-CacheRefreshExecutor-0] Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2022-07-19 19:25:11,340 DEBUG org.springframework.web.client.RestTemplate [DiscoveryClient-HeartbeatExecutor-0] HTTP PUT http://localhost:8761/eureka/apps/PREBAP-INDIA-SERVICE/CLAP1557.prodapt.com:prebap-india-service:443?status=UP&lastDirtyTimestamp=1658231013078
+2022-07-19 19:25:11,340 DEBUG org.springframework.web.client.RestTemplate [DiscoveryClient-HeartbeatExecutor-0] Accept=[application/json, application/*+json]
+2022-07-19 19:25:11,360 DEBUG org.springframework.web.client.RestTemplate [DiscoveryClient-CacheRefreshExecutor-0] HTTP GET http://localhost:8761/eureka/apps/delta
+2022-07-19 19:25:11,360 DEBUG org.springframework.web.client.RestTemplate [DiscoveryClient-CacheRefreshExecutor-0] Accept=[application/json, application/*+json]
+2022-07-19 19:25:11,363 DEBUG org.springframework.web.client.RestTemplate [DiscoveryClient-HeartbeatExecutor-0] Response 200 OK
+2022-07-19 19:25:11,382 DEBUG org.springframework.web.client.RestTemplate [DiscoveryClient-CacheRefreshExecutor-0] Response 200 OK
+2022-07-19 19:25:11,382 DEBUG org.springframework.web.client.RestTemplate [DiscoveryClient-CacheRefreshExecutor-0] Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2022-07-19 19:25:41,376 DEBUG org.springframework.web.client.RestTemplate [DiscoveryClient-HeartbeatExecutor-0] HTTP PUT http://localhost:8761/eureka/apps/PREBAP-INDIA-SERVICE/CLAP1557.prodapt.com:prebap-india-service:443?status=UP&lastDirtyTimestamp=1658231013078
+2022-07-19 19:25:41,376 DEBUG org.springframework.web.client.RestTemplate [DiscoveryClient-HeartbeatExecutor-0] Accept=[application/json, application/*+json]
+2022-07-19 19:25:41,398 DEBUG org.springframework.web.client.RestTemplate [DiscoveryClient-CacheRefreshExecutor-0] HTTP GET http://localhost:8761/eureka/apps/delta
+2022-07-19 19:25:41,398 DEBUG org.springframework.web.client.RestTemplate [DiscoveryClient-CacheRefreshExecutor-0] Accept=[application/json, application/*+json]
+2022-07-19 19:25:41,400 DEBUG org.springframework.web.client.RestTemplate [DiscoveryClient-HeartbeatExecutor-0] Response 200 OK
+2022-07-19 19:25:41,420 DEBUG org.springframework.web.client.RestTemplate [DiscoveryClient-CacheRefreshExecutor-0] Response 200 OK
+2022-07-19 19:25:41,420 DEBUG org.springframework.web.client.RestTemplate [DiscoveryClient-CacheRefreshExecutor-0] Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2022-07-19 19:26:11,410 DEBUG org.springframework.web.client.RestTemplate [DiscoveryClient-HeartbeatExecutor-0] HTTP PUT http://localhost:8761/eureka/apps/PREBAP-INDIA-SERVICE/CLAP1557.prodapt.com:prebap-india-service:443?status=UP&lastDirtyTimestamp=1658231013078
+2022-07-19 19:26:11,410 DEBUG org.springframework.web.client.RestTemplate [DiscoveryClient-HeartbeatExecutor-0] Accept=[application/json, application/*+json]
+2022-07-19 19:26:11,430 DEBUG org.springframework.web.client.RestTemplate [DiscoveryClient-CacheRefreshExecutor-0] HTTP GET http://localhost:8761/eureka/apps/delta
+2022-07-19 19:26:11,430 DEBUG org.springframework.web.client.RestTemplate [DiscoveryClient-CacheRefreshExecutor-0] Accept=[application/json, application/*+json]
+2022-07-19 19:26:11,432 DEBUG org.springframework.web.client.RestTemplate [DiscoveryClient-HeartbeatExecutor-0] Response 200 OK
+2022-07-19 19:26:11,450 DEBUG org.springframework.web.client.RestTemplate [DiscoveryClient-CacheRefreshExecutor-0] Response 200 OK
+2022-07-19 19:26:11,451 DEBUG org.springframework.web.client.RestTemplate [DiscoveryClient-CacheRefreshExecutor-0] Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2022-07-19 19:26:41,438 DEBUG org.springframework.web.client.RestTemplate [DiscoveryClient-HeartbeatExecutor-0] HTTP PUT http://localhost:8761/eureka/apps/PREBAP-INDIA-SERVICE/CLAP1557.prodapt.com:prebap-india-service:443?status=UP&lastDirtyTimestamp=1658231013078
+2022-07-19 19:26:41,438 DEBUG org.springframework.web.client.RestTemplate [DiscoveryClient-HeartbeatExecutor-0] Accept=[application/json, application/*+json]
+2022-07-19 19:26:41,458 DEBUG org.springframework.web.client.RestTemplate [DiscoveryClient-CacheRefreshExecutor-0] HTTP GET http://localhost:8761/eureka/apps/delta
+2022-07-19 19:26:41,458 DEBUG org.springframework.web.client.RestTemplate [DiscoveryClient-CacheRefreshExecutor-0] Accept=[application/json, application/*+json]
+2022-07-19 19:26:41,460 DEBUG org.springframework.web.client.RestTemplate [DiscoveryClient-HeartbeatExecutor-0] Response 200 OK
+2022-07-19 19:26:41,479 DEBUG org.springframework.web.client.RestTemplate [DiscoveryClient-CacheRefreshExecutor-0] Response 200 OK
+2022-07-19 19:26:41,479 DEBUG org.springframework.web.client.RestTemplate [DiscoveryClient-CacheRefreshExecutor-0] Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2022-07-19 19:27:11,465 DEBUG org.springframework.web.client.RestTemplate [DiscoveryClient-HeartbeatExecutor-0] HTTP PUT http://localhost:8761/eureka/apps/PREBAP-INDIA-SERVICE/CLAP1557.prodapt.com:prebap-india-service:443?status=UP&lastDirtyTimestamp=1658231013078
+2022-07-19 19:27:11,465 DEBUG org.springframework.web.client.RestTemplate [DiscoveryClient-HeartbeatExecutor-0] Accept=[application/json, application/*+json]
+2022-07-19 19:27:11,485 DEBUG org.springframework.web.client.RestTemplate [DiscoveryClient-CacheRefreshExecutor-0] HTTP GET http://localhost:8761/eureka/apps/delta
+2022-07-19 19:27:11,485 DEBUG org.springframework.web.client.RestTemplate [DiscoveryClient-CacheRefreshExecutor-0] Accept=[application/json, application/*+json]
+2022-07-19 19:27:11,487 DEBUG org.springframework.web.client.RestTemplate [DiscoveryClient-HeartbeatExecutor-0] Response 200 OK
+2022-07-19 19:27:11,507 DEBUG org.springframework.web.client.RestTemplate [DiscoveryClient-CacheRefreshExecutor-0] Response 200 OK
+2022-07-19 19:27:11,507 DEBUG org.springframework.web.client.RestTemplate [DiscoveryClient-CacheRefreshExecutor-0] Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2022-07-19 19:27:41,492 DEBUG org.springframework.web.client.RestTemplate [DiscoveryClient-HeartbeatExecutor-0] HTTP PUT http://localhost:8761/eureka/apps/PREBAP-INDIA-SERVICE/CLAP1557.prodapt.com:prebap-india-service:443?status=UP&lastDirtyTimestamp=1658231013078
+2022-07-19 19:27:41,492 DEBUG org.springframework.web.client.RestTemplate [DiscoveryClient-HeartbeatExecutor-0] Accept=[application/json, application/*+json]
+2022-07-19 19:27:41,512 DEBUG org.springframework.web.client.RestTemplate [DiscoveryClient-CacheRefreshExecutor-0] HTTP GET http://localhost:8761/eureka/apps/delta
+2022-07-19 19:27:41,512 DEBUG org.springframework.web.client.RestTemplate [DiscoveryClient-CacheRefreshExecutor-0] Accept=[application/json, application/*+json]
+2022-07-19 19:27:41,515 DEBUG org.springframework.web.client.RestTemplate [DiscoveryClient-HeartbeatExecutor-0] Response 200 OK
+2022-07-19 19:27:41,538 DEBUG org.springframework.web.client.RestTemplate [DiscoveryClient-CacheRefreshExecutor-0] Response 200 OK
+2022-07-19 19:27:41,538 DEBUG org.springframework.web.client.RestTemplate [DiscoveryClient-CacheRefreshExecutor-0] Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2022-07-19 19:28:11,521 DEBUG org.springframework.web.client.RestTemplate [DiscoveryClient-HeartbeatExecutor-0] HTTP PUT http://localhost:8761/eureka/apps/PREBAP-INDIA-SERVICE/CLAP1557.prodapt.com:prebap-india-service:443?status=UP&lastDirtyTimestamp=1658231013078
+2022-07-19 19:28:11,521 DEBUG org.springframework.web.client.RestTemplate [DiscoveryClient-HeartbeatExecutor-0] Accept=[application/json, application/*+json]
+2022-07-19 19:28:11,541 DEBUG org.springframework.web.client.RestTemplate [DiscoveryClient-CacheRefreshExecutor-0] HTTP GET http://localhost:8761/eureka/apps/delta
+2022-07-19 19:28:11,541 DEBUG org.springframework.web.client.RestTemplate [DiscoveryClient-CacheRefreshExecutor-0] Accept=[application/json, application/*+json]
+2022-07-19 19:28:11,544 DEBUG org.springframework.web.client.RestTemplate [DiscoveryClient-HeartbeatExecutor-0] Response 200 OK
+2022-07-19 19:28:11,562 DEBUG org.springframework.web.client.RestTemplate [DiscoveryClient-CacheRefreshExecutor-0] Response 200 OK
+2022-07-19 19:28:11,564 DEBUG org.springframework.web.client.RestTemplate [DiscoveryClient-CacheRefreshExecutor-0] Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2022-07-19 19:28:41,572 DEBUG org.springframework.web.client.RestTemplate [DiscoveryClient-HeartbeatExecutor-0] HTTP PUT http://localhost:8761/eureka/apps/PREBAP-INDIA-SERVICE/CLAP1557.prodapt.com:prebap-india-service:443?status=UP&lastDirtyTimestamp=1658231013078
+2022-07-19 19:28:41,572 DEBUG org.springframework.web.client.RestTemplate [DiscoveryClient-CacheRefreshExecutor-0] HTTP GET http://localhost:8761/eureka/apps/delta
+2022-07-19 19:28:41,572 DEBUG org.springframework.web.client.RestTemplate [DiscoveryClient-CacheRefreshExecutor-0] Accept=[application/json, application/*+json]
+2022-07-19 19:28:41,572 DEBUG org.springframework.web.client.RestTemplate [DiscoveryClient-HeartbeatExecutor-0] Accept=[application/json, application/*+json]
+2022-07-19 19:28:41,591 DEBUG org.springframework.web.client.RestTemplate [DiscoveryClient-CacheRefreshExecutor-0] Response 200 OK
+2022-07-19 19:28:41,591 DEBUG org.springframework.web.client.RestTemplate [DiscoveryClient-HeartbeatExecutor-0] Response 200 OK
+2022-07-19 19:28:41,592 DEBUG org.springframework.web.client.RestTemplate [DiscoveryClient-CacheRefreshExecutor-0] Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2022-07-19 19:29:11,618 DEBUG org.springframework.web.client.RestTemplate [DiscoveryClient-CacheRefreshExecutor-0] HTTP GET http://localhost:8761/eureka/apps/delta
+2022-07-19 19:29:11,618 DEBUG org.springframework.web.client.RestTemplate [DiscoveryClient-HeartbeatExecutor-0] HTTP PUT http://localhost:8761/eureka/apps/PREBAP-INDIA-SERVICE/CLAP1557.prodapt.com:prebap-india-service:443?status=UP&lastDirtyTimestamp=1658231013078
+2022-07-19 19:29:11,618 DEBUG org.springframework.web.client.RestTemplate [DiscoveryClient-HeartbeatExecutor-0] Accept=[application/json, application/*+json]
+2022-07-19 19:29:11,618 DEBUG org.springframework.web.client.RestTemplate [DiscoveryClient-CacheRefreshExecutor-0] Accept=[application/json, application/*+json]
+2022-07-19 19:29:11,639 DEBUG org.springframework.web.client.RestTemplate [DiscoveryClient-CacheRefreshExecutor-0] Response 200 OK
+2022-07-19 19:29:11,639 DEBUG org.springframework.web.client.RestTemplate [DiscoveryClient-HeartbeatExecutor-0] Response 200 OK
+2022-07-19 19:29:11,639 DEBUG org.springframework.web.client.RestTemplate [DiscoveryClient-CacheRefreshExecutor-0] Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2022-07-19 19:29:41,658 DEBUG org.springframework.web.client.RestTemplate [DiscoveryClient-CacheRefreshExecutor-0] HTTP GET http://localhost:8761/eureka/apps/delta
+2022-07-19 19:29:41,658 DEBUG org.springframework.web.client.RestTemplate [DiscoveryClient-HeartbeatExecutor-0] HTTP PUT http://localhost:8761/eureka/apps/PREBAP-INDIA-SERVICE/CLAP1557.prodapt.com:prebap-india-service:443?status=UP&lastDirtyTimestamp=1658231013078
+2022-07-19 19:29:41,658 DEBUG org.springframework.web.client.RestTemplate [DiscoveryClient-CacheRefreshExecutor-0] Accept=[application/json, application/*+json]
+2022-07-19 19:29:41,658 DEBUG org.springframework.web.client.RestTemplate [DiscoveryClient-HeartbeatExecutor-0] Accept=[application/json, application/*+json]
+2022-07-19 19:29:41,680 DEBUG org.springframework.web.client.RestTemplate [DiscoveryClient-CacheRefreshExecutor-0] Response 200 OK
+2022-07-19 19:29:41,680 DEBUG org.springframework.web.client.RestTemplate [DiscoveryClient-HeartbeatExecutor-0] Response 200 OK
+2022-07-19 19:29:41,681 DEBUG org.springframework.web.client.RestTemplate [DiscoveryClient-CacheRefreshExecutor-0] Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2022-07-19 19:30:11,703 DEBUG org.springframework.web.client.RestTemplate [DiscoveryClient-CacheRefreshExecutor-0] HTTP GET http://localhost:8761/eureka/apps/delta
+2022-07-19 19:30:11,703 DEBUG org.springframework.web.client.RestTemplate [DiscoveryClient-HeartbeatExecutor-0] HTTP PUT http://localhost:8761/eureka/apps/PREBAP-INDIA-SERVICE/CLAP1557.prodapt.com:prebap-india-service:443?status=UP&lastDirtyTimestamp=1658231013078
+2022-07-19 19:30:11,703 DEBUG org.springframework.web.client.RestTemplate [DiscoveryClient-CacheRefreshExecutor-0] Accept=[application/json, application/*+json]
+2022-07-19 19:30:11,703 DEBUG org.springframework.web.client.RestTemplate [DiscoveryClient-HeartbeatExecutor-0] Accept=[application/json, application/*+json]
+2022-07-19 19:30:11,732 DEBUG org.springframework.web.client.RestTemplate [DiscoveryClient-CacheRefreshExecutor-0] Response 200 OK
+2022-07-19 19:30:11,732 DEBUG org.springframework.web.client.RestTemplate [DiscoveryClient-HeartbeatExecutor-0] Response 200 OK
+2022-07-19 19:30:11,732 DEBUG org.springframework.web.client.RestTemplate [DiscoveryClient-CacheRefreshExecutor-0] Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2022-07-19 19:30:41,741 DEBUG org.springframework.web.client.RestTemplate [DiscoveryClient-HeartbeatExecutor-0] HTTP PUT http://localhost:8761/eureka/apps/PREBAP-INDIA-SERVICE/CLAP1557.prodapt.com:prebap-india-service:443?status=UP&lastDirtyTimestamp=1658231013078
+2022-07-19 19:30:41,741 DEBUG org.springframework.web.client.RestTemplate [DiscoveryClient-CacheRefreshExecutor-0] HTTP GET http://localhost:8761/eureka/apps/delta
+2022-07-19 19:30:41,741 DEBUG org.springframework.web.client.RestTemplate [DiscoveryClient-HeartbeatExecutor-0] Accept=[application/json, application/*+json]
+2022-07-19 19:30:41,741 DEBUG org.springframework.web.client.RestTemplate [DiscoveryClient-CacheRefreshExecutor-0] Accept=[application/json, application/*+json]
+2022-07-19 19:30:41,759 DEBUG org.springframework.web.client.RestTemplate [DiscoveryClient-CacheRefreshExecutor-0] Response 200 OK
+2022-07-19 19:30:41,760 DEBUG org.springframework.web.client.RestTemplate [DiscoveryClient-HeartbeatExecutor-0] Response 200 OK
+2022-07-19 19:30:41,760 DEBUG org.springframework.web.client.RestTemplate [DiscoveryClient-CacheRefreshExecutor-0] Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2022-07-19 19:31:11,782 DEBUG org.springframework.web.client.RestTemplate [DiscoveryClient-CacheRefreshExecutor-0] HTTP GET http://localhost:8761/eureka/apps/delta
+2022-07-19 19:31:11,782 DEBUG org.springframework.web.client.RestTemplate [DiscoveryClient-HeartbeatExecutor-0] HTTP PUT http://localhost:8761/eureka/apps/PREBAP-INDIA-SERVICE/CLAP1557.prodapt.com:prebap-india-service:443?status=UP&lastDirtyTimestamp=1658231013078
+2022-07-19 19:31:11,782 DEBUG org.springframework.web.client.RestTemplate [DiscoveryClient-CacheRefreshExecutor-0] Accept=[application/json, application/*+json]
+2022-07-19 19:31:11,782 DEBUG org.springframework.web.client.RestTemplate [DiscoveryClient-HeartbeatExecutor-0] Accept=[application/json, application/*+json]
+2022-07-19 19:31:11,803 DEBUG org.springframework.web.client.RestTemplate [DiscoveryClient-CacheRefreshExecutor-0] Response 200 OK
+2022-07-19 19:31:11,803 DEBUG org.springframework.web.client.RestTemplate [DiscoveryClient-HeartbeatExecutor-0] Response 200 OK
+2022-07-19 19:31:11,804 DEBUG org.springframework.web.client.RestTemplate [DiscoveryClient-CacheRefreshExecutor-0] Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2022-07-19 19:31:41,818 DEBUG org.springframework.web.client.RestTemplate [DiscoveryClient-CacheRefreshExecutor-0] HTTP GET http://localhost:8761/eureka/apps/delta
+2022-07-19 19:31:41,818 DEBUG org.springframework.web.client.RestTemplate [DiscoveryClient-HeartbeatExecutor-0] HTTP PUT http://localhost:8761/eureka/apps/PREBAP-INDIA-SERVICE/CLAP1557.prodapt.com:prebap-india-service:443?status=UP&lastDirtyTimestamp=1658231013078
+2022-07-19 19:31:41,818 DEBUG org.springframework.web.client.RestTemplate [DiscoveryClient-CacheRefreshExecutor-0] Accept=[application/json, application/*+json]
+2022-07-19 19:31:41,818 DEBUG org.springframework.web.client.RestTemplate [DiscoveryClient-HeartbeatExecutor-0] Accept=[application/json, application/*+json]
+2022-07-19 19:31:41,837 DEBUG org.springframework.web.client.RestTemplate [DiscoveryClient-HeartbeatExecutor-0] Response 200 OK
+2022-07-19 19:31:41,837 DEBUG org.springframework.web.client.RestTemplate [DiscoveryClient-CacheRefreshExecutor-0] Response 200 OK
+2022-07-19 19:31:41,837 DEBUG org.springframework.web.client.RestTemplate [DiscoveryClient-CacheRefreshExecutor-0] Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2022-07-19 19:32:11,854 DEBUG org.springframework.web.client.RestTemplate [DiscoveryClient-CacheRefreshExecutor-0] HTTP GET http://localhost:8761/eureka/apps/delta
+2022-07-19 19:32:11,854 DEBUG org.springframework.web.client.RestTemplate [DiscoveryClient-HeartbeatExecutor-0] HTTP PUT http://localhost:8761/eureka/apps/PREBAP-INDIA-SERVICE/CLAP1557.prodapt.com:prebap-india-service:443?status=UP&lastDirtyTimestamp=1658231013078
+2022-07-19 19:32:11,854 DEBUG org.springframework.web.client.RestTemplate [DiscoveryClient-CacheRefreshExecutor-0] Accept=[application/json, application/*+json]
+2022-07-19 19:32:11,854 DEBUG org.springframework.web.client.RestTemplate [DiscoveryClient-HeartbeatExecutor-0] Accept=[application/json, application/*+json]
+2022-07-19 19:32:11,875 DEBUG org.springframework.web.client.RestTemplate [DiscoveryClient-HeartbeatExecutor-0] Response 200 OK
+2022-07-19 19:32:11,875 DEBUG org.springframework.web.client.RestTemplate [DiscoveryClient-CacheRefreshExecutor-0] Response 200 OK
+2022-07-19 19:32:11,875 DEBUG org.springframework.web.client.RestTemplate [DiscoveryClient-CacheRefreshExecutor-0] Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2022-07-19 19:32:41,887 DEBUG org.springframework.web.client.RestTemplate [DiscoveryClient-CacheRefreshExecutor-0] HTTP GET http://localhost:8761/eureka/apps/delta
+2022-07-19 19:32:41,887 DEBUG org.springframework.web.client.RestTemplate [DiscoveryClient-HeartbeatExecutor-0] HTTP PUT http://localhost:8761/eureka/apps/PREBAP-INDIA-SERVICE/CLAP1557.prodapt.com:prebap-india-service:443?status=UP&lastDirtyTimestamp=1658231013078
+2022-07-19 19:32:41,887 DEBUG org.springframework.web.client.RestTemplate [DiscoveryClient-CacheRefreshExecutor-0] Accept=[application/json, application/*+json]
+2022-07-19 19:32:41,887 DEBUG org.springframework.web.client.RestTemplate [DiscoveryClient-HeartbeatExecutor-0] Accept=[application/json, application/*+json]
+2022-07-19 19:32:41,916 DEBUG org.springframework.web.client.RestTemplate [DiscoveryClient-HeartbeatExecutor-0] Response 200 OK
+2022-07-19 19:32:41,916 DEBUG org.springframework.web.client.RestTemplate [DiscoveryClient-CacheRefreshExecutor-0] Response 200 OK
+2022-07-19 19:32:41,916 DEBUG org.springframework.web.client.RestTemplate [DiscoveryClient-CacheRefreshExecutor-0] Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2022-07-19 19:33:11,924 DEBUG org.springframework.web.client.RestTemplate [DiscoveryClient-CacheRefreshExecutor-0] HTTP GET http://localhost:8761/eureka/apps/delta
+2022-07-19 19:33:11,924 DEBUG org.springframework.web.client.RestTemplate [DiscoveryClient-HeartbeatExecutor-0] HTTP PUT http://localhost:8761/eureka/apps/PREBAP-INDIA-SERVICE/CLAP1557.prodapt.com:prebap-india-service:443?status=UP&lastDirtyTimestamp=1658231013078
+2022-07-19 19:33:11,924 DEBUG org.springframework.web.client.RestTemplate [DiscoveryClient-HeartbeatExecutor-0] Accept=[application/json, application/*+json]
+2022-07-19 19:33:11,924 DEBUG org.springframework.web.client.RestTemplate [DiscoveryClient-CacheRefreshExecutor-0] Accept=[application/json, application/*+json]
+2022-07-19 19:33:11,952 DEBUG org.springframework.web.client.RestTemplate [DiscoveryClient-HeartbeatExecutor-0] Response 200 OK
+2022-07-19 19:33:11,952 DEBUG org.springframework.web.client.RestTemplate [DiscoveryClient-CacheRefreshExecutor-0] Response 200 OK
+2022-07-19 19:33:11,952 DEBUG org.springframework.web.client.RestTemplate [DiscoveryClient-CacheRefreshExecutor-0] Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2022-07-19 19:33:41,960 DEBUG org.springframework.web.client.RestTemplate [DiscoveryClient-CacheRefreshExecutor-0] HTTP GET http://localhost:8761/eureka/apps/delta
+2022-07-19 19:33:41,960 DEBUG org.springframework.web.client.RestTemplate [DiscoveryClient-HeartbeatExecutor-0] HTTP PUT http://localhost:8761/eureka/apps/PREBAP-INDIA-SERVICE/CLAP1557.prodapt.com:prebap-india-service:443?status=UP&lastDirtyTimestamp=1658231013078
+2022-07-19 19:33:41,960 DEBUG org.springframework.web.client.RestTemplate [DiscoveryClient-CacheRefreshExecutor-0] Accept=[application/json, application/*+json]
+2022-07-19 19:33:41,960 DEBUG org.springframework.web.client.RestTemplate [DiscoveryClient-HeartbeatExecutor-0] Accept=[application/json, application/*+json]
+2022-07-19 19:33:41,981 DEBUG org.springframework.web.client.RestTemplate [DiscoveryClient-CacheRefreshExecutor-0] Response 200 OK
+2022-07-19 19:33:41,981 DEBUG org.springframework.web.client.RestTemplate [DiscoveryClient-HeartbeatExecutor-0] Response 200 OK
+2022-07-19 19:33:41,981 DEBUG org.springframework.web.client.RestTemplate [DiscoveryClient-CacheRefreshExecutor-0] Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2022-07-19 19:34:11,990 DEBUG org.springframework.web.client.RestTemplate [DiscoveryClient-CacheRefreshExecutor-0] HTTP GET http://localhost:8761/eureka/apps/delta
+2022-07-19 19:34:11,990 DEBUG org.springframework.web.client.RestTemplate [DiscoveryClient-HeartbeatExecutor-0] HTTP PUT http://localhost:8761/eureka/apps/PREBAP-INDIA-SERVICE/CLAP1557.prodapt.com:prebap-india-service:443?status=UP&lastDirtyTimestamp=1658231013078
+2022-07-19 19:34:11,990 DEBUG org.springframework.web.client.RestTemplate [DiscoveryClient-CacheRefreshExecutor-0] Accept=[application/json, application/*+json]
+2022-07-19 19:34:11,990 DEBUG org.springframework.web.client.RestTemplate [DiscoveryClient-HeartbeatExecutor-0] Accept=[application/json, application/*+json]
+2022-07-19 19:34:12,014 DEBUG org.springframework.web.client.RestTemplate [DiscoveryClient-HeartbeatExecutor-0] Response 200 OK
+2022-07-19 19:34:12,014 DEBUG org.springframework.web.client.RestTemplate [DiscoveryClient-CacheRefreshExecutor-0] Response 200 OK
+2022-07-19 19:34:12,015 DEBUG org.springframework.web.client.RestTemplate [DiscoveryClient-CacheRefreshExecutor-0] Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2022-07-19 19:34:42,037 DEBUG org.springframework.web.client.RestTemplate [DiscoveryClient-CacheRefreshExecutor-0] HTTP GET http://localhost:8761/eureka/apps/delta
+2022-07-19 19:34:42,037 DEBUG org.springframework.web.client.RestTemplate [DiscoveryClient-HeartbeatExecutor-0] HTTP PUT http://localhost:8761/eureka/apps/PREBAP-INDIA-SERVICE/CLAP1557.prodapt.com:prebap-india-service:443?status=UP&lastDirtyTimestamp=1658231013078
+2022-07-19 19:34:42,037 DEBUG org.springframework.web.client.RestTemplate [DiscoveryClient-CacheRefreshExecutor-0] Accept=[application/json, application/*+json]
+2022-07-19 19:34:42,037 DEBUG org.springframework.web.client.RestTemplate [DiscoveryClient-HeartbeatExecutor-0] Accept=[application/json, application/*+json]
+2022-07-19 19:34:42,054 DEBUG org.springframework.web.client.RestTemplate [DiscoveryClient-HeartbeatExecutor-0] Response 200 OK
+2022-07-19 19:34:42,054 DEBUG org.springframework.web.client.RestTemplate [DiscoveryClient-CacheRefreshExecutor-0] Response 200 OK
+2022-07-19 19:34:42,055 DEBUG org.springframework.web.client.RestTemplate [DiscoveryClient-CacheRefreshExecutor-0] Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2022-07-19 19:35:12,057 DEBUG org.springframework.web.client.RestTemplate [DiscoveryClient-CacheRefreshExecutor-0] HTTP GET http://localhost:8761/eureka/apps/delta
+2022-07-19 19:35:12,057 DEBUG org.springframework.web.client.RestTemplate [DiscoveryClient-HeartbeatExecutor-0] HTTP PUT http://localhost:8761/eureka/apps/PREBAP-INDIA-SERVICE/CLAP1557.prodapt.com:prebap-india-service:443?status=UP&lastDirtyTimestamp=1658231013078
+2022-07-19 19:35:12,057 DEBUG org.springframework.web.client.RestTemplate [DiscoveryClient-CacheRefreshExecutor-0] Accept=[application/json, application/*+json]
+2022-07-19 19:35:12,057 DEBUG org.springframework.web.client.RestTemplate [DiscoveryClient-HeartbeatExecutor-0] Accept=[application/json, application/*+json]
+2022-07-19 19:35:12,074 DEBUG org.springframework.web.client.RestTemplate [DiscoveryClient-HeartbeatExecutor-0] Response 200 OK
+2022-07-19 19:35:12,074 DEBUG org.springframework.web.client.RestTemplate [DiscoveryClient-CacheRefreshExecutor-0] Response 200 OK
+2022-07-19 19:35:12,074 DEBUG org.springframework.web.client.RestTemplate [DiscoveryClient-CacheRefreshExecutor-0] Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2022-07-19 19:35:42,079 DEBUG org.springframework.web.client.RestTemplate [DiscoveryClient-CacheRefreshExecutor-0] HTTP GET http://localhost:8761/eureka/apps/delta
+2022-07-19 19:35:42,079 DEBUG org.springframework.web.client.RestTemplate [DiscoveryClient-HeartbeatExecutor-0] HTTP PUT http://localhost:8761/eureka/apps/PREBAP-INDIA-SERVICE/CLAP1557.prodapt.com:prebap-india-service:443?status=UP&lastDirtyTimestamp=1658231013078
+2022-07-19 19:35:42,079 DEBUG org.springframework.web.client.RestTemplate [DiscoveryClient-CacheRefreshExecutor-0] Accept=[application/json, application/*+json]
+2022-07-19 19:35:42,079 DEBUG org.springframework.web.client.RestTemplate [DiscoveryClient-HeartbeatExecutor-0] Accept=[application/json, application/*+json]
+2022-07-19 19:35:42,083 DEBUG org.springframework.web.client.RestTemplate [DiscoveryClient-CacheRefreshExecutor-0] Response 200 OK
+2022-07-19 19:35:42,083 DEBUG org.springframework.web.client.RestTemplate [DiscoveryClient-HeartbeatExecutor-0] Response 200 OK
+2022-07-19 19:35:42,084 DEBUG org.springframework.web.client.RestTemplate [DiscoveryClient-CacheRefreshExecutor-0] Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2022-07-19 19:36:12,086 DEBUG org.springframework.web.client.RestTemplate [DiscoveryClient-HeartbeatExecutor-0] HTTP PUT http://localhost:8761/eureka/apps/PREBAP-INDIA-SERVICE/CLAP1557.prodapt.com:prebap-india-service:443?status=UP&lastDirtyTimestamp=1658231013078
+2022-07-19 19:36:12,086 DEBUG org.springframework.web.client.RestTemplate [DiscoveryClient-CacheRefreshExecutor-0] HTTP GET http://localhost:8761/eureka/apps/delta
+2022-07-19 19:36:12,086 DEBUG org.springframework.web.client.RestTemplate [DiscoveryClient-CacheRefreshExecutor-0] Accept=[application/json, application/*+json]
+2022-07-19 19:36:12,086 DEBUG org.springframework.web.client.RestTemplate [DiscoveryClient-HeartbeatExecutor-0] Accept=[application/json, application/*+json]
+2022-07-19 19:36:12,102 DEBUG org.springframework.web.client.RestTemplate [DiscoveryClient-HeartbeatExecutor-0] Response 200 OK
+2022-07-19 19:36:12,102 DEBUG org.springframework.web.client.RestTemplate [DiscoveryClient-CacheRefreshExecutor-0] Response 200 OK
+2022-07-19 19:36:12,102 DEBUG org.springframework.web.client.RestTemplate [DiscoveryClient-CacheRefreshExecutor-0] Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]

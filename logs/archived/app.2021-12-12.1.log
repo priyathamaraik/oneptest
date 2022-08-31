@@ -1,0 +1,482 @@
+2021-12-12 20:44:24,151 ERROR org.springframework.boot.web.embedded.tomcat.TomcatStarter [restartedMain] Error starting Tomcat context. Exception: org.springframework.beans.factory.UnsatisfiedDependencyException. Message: Error creating bean with name 'jwtFilter': Unsatisfied dependency expressed through field 'candidateUserService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'authUserDetailService': Unsatisfied dependency expressed through field 'bCryptPasswordEncoder'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'securityConfiguration': Unsatisfied dependency expressed through field 'userDetailService'; nested exception is org.springframework.beans.factory.BeanCurrentlyInCreationException: Error creating bean with name 'authUserDetailService': Requested bean is currently in creation: Is there an unresolvable circular reference?
+2021-12-12 20:44:24,237 ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter [restartedMain] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The dependencies of some of the beans in the application context form a cycle:
+
+   jwtFilter (field private com.prodapt.app.onboardingwebserver.services.AuthUserDetailService com.prodapt.app.onboardingwebserver.filter.JwtFilter.candidateUserService)
+┌─────┐
+|  authUserDetailService (field private org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder com.prodapt.app.onboardingwebserver.services.AuthUserDetailService.bCryptPasswordEncoder)
+↑     ↓
+|  securityConfiguration (field com.prodapt.app.onboardingwebserver.services.AuthUserDetailService com.prodapt.app.onboardingwebserver.config.SecurityConfiguration.userDetailService)
+└─────┘
+
+
+Action:
+
+Relying upon circular references is discouraged and they are prohibited by default. Update your application to remove the dependency cycle between beans. As a last resort, it may be possible to break the cycle automatically by setting spring.main.allow-circular-references to true.
+
+2021-12-12 20:45:14,360 INFO com.prodapt.app.onboardingwebserver.OnboardingWebServerApplication [restartedMain] Starting OnboardingWebServerApplication using Java 16.0.2 on CLAP1807 with PID 18228 (D:\00_PreBAP_Project_Code\Development\Web_Services_Redis\target\classes started by kalangirajeev.k in D:\00_PreBAP_Project_Code\Development\Web_Services_Redis)
+2021-12-12 20:45:14,361 DEBUG com.prodapt.app.onboardingwebserver.OnboardingWebServerApplication [restartedMain] Running with Spring Boot v2.6.0, Spring v5.3.13
+2021-12-12 20:45:14,362 INFO com.prodapt.app.onboardingwebserver.OnboardingWebServerApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-12-12 20:45:16,582 ERROR org.springframework.boot.web.embedded.tomcat.TomcatStarter [restartedMain] Error starting Tomcat context. Exception: org.springframework.beans.factory.UnsatisfiedDependencyException. Message: Error creating bean with name 'jwtFilter': Unsatisfied dependency expressed through field 'candidateUserService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'authUserDetailService': Unsatisfied dependency expressed through field 'bCryptPasswordEncoder'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'securityConfiguration': Unsatisfied dependency expressed through field 'userDetailService'; nested exception is org.springframework.beans.factory.BeanCurrentlyInCreationException: Error creating bean with name 'authUserDetailService': Requested bean is currently in creation: Is there an unresolvable circular reference?
+2021-12-12 20:45:16,643 ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter [restartedMain] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The dependencies of some of the beans in the application context form a cycle:
+
+   jwtFilter (field private com.prodapt.app.onboardingwebserver.services.AuthUserDetailService com.prodapt.app.onboardingwebserver.filter.JwtFilter.candidateUserService)
+┌─────┐
+|  authUserDetailService (field private org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder com.prodapt.app.onboardingwebserver.services.AuthUserDetailService.bCryptPasswordEncoder)
+↑     ↓
+|  securityConfiguration (field com.prodapt.app.onboardingwebserver.services.AuthUserDetailService com.prodapt.app.onboardingwebserver.config.SecurityConfiguration.userDetailService)
+└─────┘
+
+
+Action:
+
+Relying upon circular references is discouraged and they are prohibited by default. Update your application to remove the dependency cycle between beans. As a last resort, it may be possible to break the cycle automatically by setting spring.main.allow-circular-references to true.
+
+2021-12-12 20:49:39,668 INFO com.prodapt.app.onboardingwebserver.OnboardingWebServerApplication [restartedMain] Starting OnboardingWebServerApplication using Java 16.0.2 on CLAP1807 with PID 12200 (D:\00_PreBAP_Project_Code\Development\Web_Services_Redis\target\classes started by kalangirajeev.k in D:\00_PreBAP_Project_Code\Development\Web_Services_Redis)
+2021-12-12 20:49:39,671 DEBUG com.prodapt.app.onboardingwebserver.OnboardingWebServerApplication [restartedMain] Running with Spring Boot v2.6.0, Spring v5.3.13
+2021-12-12 20:49:39,671 INFO com.prodapt.app.onboardingwebserver.OnboardingWebServerApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-12-12 20:49:41,982 ERROR org.springframework.boot.web.embedded.tomcat.TomcatStarter [restartedMain] Error starting Tomcat context. Exception: org.springframework.beans.factory.UnsatisfiedDependencyException. Message: Error creating bean with name 'jwtFilter': Unsatisfied dependency expressed through field 'candidateUserService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'authUserDetailService': Unsatisfied dependency expressed through field 'bCryptPasswordEncoder'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'securityConfiguration': Unsatisfied dependency expressed through field 'userDetailService'; nested exception is org.springframework.beans.factory.BeanCurrentlyInCreationException: Error creating bean with name 'authUserDetailService': Requested bean is currently in creation: Is there an unresolvable circular reference?
+2021-12-12 20:49:42,054 ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter [restartedMain] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The dependencies of some of the beans in the application context form a cycle:
+
+   jwtFilter (field private com.prodapt.app.onboardingwebserver.services.AuthUserDetailService com.prodapt.app.onboardingwebserver.filter.JwtFilter.candidateUserService)
+┌─────┐
+|  authUserDetailService (field private org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder com.prodapt.app.onboardingwebserver.services.AuthUserDetailService.bCryptPasswordEncoder)
+↑     ↓
+|  securityConfiguration (field com.prodapt.app.onboardingwebserver.services.AuthUserDetailService com.prodapt.app.onboardingwebserver.config.SecurityConfiguration.userDetailService)
+└─────┘
+
+
+Action:
+
+Relying upon circular references is discouraged and they are prohibited by default. Update your application to remove the dependency cycle between beans. As a last resort, it may be possible to break the cycle automatically by setting spring.main.allow-circular-references to true.
+
+2021-12-12 21:13:23,475 INFO com.prodapt.app.onboardingwebserver.OnboardingWebServerApplication [restartedMain] Starting OnboardingWebServerApplication using Java 16.0.2 on CLAP1807 with PID 19508 (D:\00_PreBAP_Project_Code\Development\Web_Services_Redis\target\classes started by kalangirajeev.k in D:\00_PreBAP_Project_Code\Development\Web_Services_Redis)
+2021-12-12 21:13:23,478 DEBUG com.prodapt.app.onboardingwebserver.OnboardingWebServerApplication [restartedMain] Running with Spring Boot v2.6.0, Spring v5.3.13
+2021-12-12 21:13:23,478 INFO com.prodapt.app.onboardingwebserver.OnboardingWebServerApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-12-12 21:13:26,576 ERROR org.springframework.boot.web.embedded.tomcat.TomcatStarter [restartedMain] Error starting Tomcat context. Exception: org.springframework.beans.factory.UnsatisfiedDependencyException. Message: Error creating bean with name 'jwtFilter': Unsatisfied dependency expressed through field 'candidateUserService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'authUserDetailService': Unsatisfied dependency expressed through field 'bCryptPasswordEncoder'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'securityConfiguration': Unsatisfied dependency expressed through field 'userDetailService'; nested exception is org.springframework.beans.factory.BeanCurrentlyInCreationException: Error creating bean with name 'authUserDetailService': Requested bean is currently in creation: Is there an unresolvable circular reference?
+2021-12-12 21:13:26,642 ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter [restartedMain] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The dependencies of some of the beans in the application context form a cycle:
+
+   jwtFilter (field private com.prodapt.app.onboardingwebserver.services.AuthUserDetailService com.prodapt.app.onboardingwebserver.filter.JwtFilter.candidateUserService)
+┌─────┐
+|  authUserDetailService (field private org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder com.prodapt.app.onboardingwebserver.services.AuthUserDetailService.bCryptPasswordEncoder)
+↑     ↓
+|  securityConfiguration (field com.prodapt.app.onboardingwebserver.services.AuthUserDetailService com.prodapt.app.onboardingwebserver.config.SecurityConfiguration.userDetailService)
+└─────┘
+
+
+Action:
+
+Relying upon circular references is discouraged and they are prohibited by default. Update your application to remove the dependency cycle between beans. As a last resort, it may be possible to break the cycle automatically by setting spring.main.allow-circular-references to true.
+
+2021-12-12 21:19:09,443 INFO com.prodapt.app.onboardingwebserver.OnboardingWebServerApplication [restartedMain] Starting OnboardingWebServerApplication using Java 17.0.1 on CLAP1807 with PID 17100 (D:\00_PreBAP_Project_Code\Development\Web_Services_Redis\target\classes started by kalangirajeev.k in D:\00_PreBAP_Project_Code\Development\Web_Services_Redis)
+2021-12-12 21:19:09,449 DEBUG com.prodapt.app.onboardingwebserver.OnboardingWebServerApplication [restartedMain] Running with Spring Boot v2.6.0, Spring v5.3.13
+2021-12-12 21:19:09,449 INFO com.prodapt.app.onboardingwebserver.OnboardingWebServerApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-12-12 21:19:13,480 ERROR org.springframework.boot.web.embedded.tomcat.TomcatStarter [restartedMain] Error starting Tomcat context. Exception: org.springframework.beans.factory.UnsatisfiedDependencyException. Message: Error creating bean with name 'jwtFilter': Unsatisfied dependency expressed through field 'candidateUserService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'authUserDetailService': Unsatisfied dependency expressed through field 'bCryptPasswordEncoder'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'securityConfiguration': Unsatisfied dependency expressed through field 'userDetailService'; nested exception is org.springframework.beans.factory.BeanCurrentlyInCreationException: Error creating bean with name 'authUserDetailService': Requested bean is currently in creation: Is there an unresolvable circular reference?
+2021-12-12 21:19:13,652 ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter [restartedMain] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The dependencies of some of the beans in the application context form a cycle:
+
+   jwtFilter (field private com.prodapt.app.onboardingwebserver.services.AuthUserDetailService com.prodapt.app.onboardingwebserver.filter.JwtFilter.candidateUserService)
+???????
+|  authUserDetailService (field private org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder com.prodapt.app.onboardingwebserver.services.AuthUserDetailService.bCryptPasswordEncoder)
+?     ?
+|  securityConfiguration (field com.prodapt.app.onboardingwebserver.services.AuthUserDetailService com.prodapt.app.onboardingwebserver.config.SecurityConfiguration.userDetailService)
+???????
+
+
+Action:
+
+Relying upon circular references is discouraged and they are prohibited by default. Update your application to remove the dependency cycle between beans. As a last resort, it may be possible to break the cycle automatically by setting spring.main.allow-circular-references to true.
+
+2021-12-12 21:20:27,580 INFO com.prodapt.app.onboardingwebserver.OnboardingWebServerApplication [restartedMain] Starting OnboardingWebServerApplication using Java 17.0.1 on CLAP1807 with PID 5460 (D:\00_PreBAP_Project_Code\Development\Web_Services_Redis\target\classes started by kalangirajeev.k in D:\00_PreBAP_Project_Code\Development\Web_Services_Redis)
+2021-12-12 21:20:27,586 DEBUG com.prodapt.app.onboardingwebserver.OnboardingWebServerApplication [restartedMain] Running with Spring Boot v2.6.1, Spring v5.3.13
+2021-12-12 21:20:27,587 INFO com.prodapt.app.onboardingwebserver.OnboardingWebServerApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-12-12 21:20:31,432 ERROR org.springframework.boot.web.embedded.tomcat.TomcatStarter [restartedMain] Error starting Tomcat context. Exception: org.springframework.beans.factory.UnsatisfiedDependencyException. Message: Error creating bean with name 'jwtFilter': Unsatisfied dependency expressed through field 'candidateUserService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'authUserDetailService': Unsatisfied dependency expressed through field 'bCryptPasswordEncoder'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'securityConfiguration': Unsatisfied dependency expressed through field 'userDetailService'; nested exception is org.springframework.beans.factory.BeanCurrentlyInCreationException: Error creating bean with name 'authUserDetailService': Requested bean is currently in creation: Is there an unresolvable circular reference?
+2021-12-12 21:20:31,539 ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter [restartedMain] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The dependencies of some of the beans in the application context form a cycle:
+
+   jwtFilter (field private com.prodapt.app.onboardingwebserver.services.AuthUserDetailService com.prodapt.app.onboardingwebserver.filter.JwtFilter.candidateUserService)
+???????
+|  authUserDetailService (field private org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder com.prodapt.app.onboardingwebserver.services.AuthUserDetailService.bCryptPasswordEncoder)
+?     ?
+|  securityConfiguration (field com.prodapt.app.onboardingwebserver.services.AuthUserDetailService com.prodapt.app.onboardingwebserver.config.SecurityConfiguration.userDetailService)
+???????
+
+
+Action:
+
+Relying upon circular references is discouraged and they are prohibited by default. Update your application to remove the dependency cycle between beans. As a last resort, it may be possible to break the cycle automatically by setting spring.main.allow-circular-references to true.
+
+2021-12-12 21:23:55,306 INFO com.prodapt.app.onboardingwebserver.OnboardingWebServerApplication [restartedMain] Starting OnboardingWebServerApplication using Java 17.0.1 on CLAP1807 with PID 15140 (D:\00_PreBAP_Project_Code\Development\Web_Services_Redis\target\classes started by kalangirajeev.k in D:\00_PreBAP_Project_Code\Development\Web_Services_Redis)
+2021-12-12 21:23:55,312 DEBUG com.prodapt.app.onboardingwebserver.OnboardingWebServerApplication [restartedMain] Running with Spring Boot v2.6.1, Spring v5.3.13
+2021-12-12 21:23:55,313 INFO com.prodapt.app.onboardingwebserver.OnboardingWebServerApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-12-12 21:23:59,472 ERROR org.springframework.boot.web.embedded.tomcat.TomcatStarter [restartedMain] Error starting Tomcat context. Exception: org.springframework.beans.factory.UnsatisfiedDependencyException. Message: Error creating bean with name 'jwtFilter': Unsatisfied dependency expressed through field 'candidateUserService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'authUserDetailService': Unsatisfied dependency expressed through field 'bCryptPasswordEncoder'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'securityConfiguration': Unsatisfied dependency expressed through field 'userDetailService'; nested exception is org.springframework.beans.factory.BeanCurrentlyInCreationException: Error creating bean with name 'authUserDetailService': Requested bean is currently in creation: Is there an unresolvable circular reference?
+2021-12-12 21:23:59,596 ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter [restartedMain] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The dependencies of some of the beans in the application context form a cycle:
+
+   jwtFilter (field private com.prodapt.app.onboardingwebserver.services.AuthUserDetailService com.prodapt.app.onboardingwebserver.filter.JwtFilter.candidateUserService)
+???????
+|  authUserDetailService (field private org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder com.prodapt.app.onboardingwebserver.services.AuthUserDetailService.bCryptPasswordEncoder)
+?     ?
+|  securityConfiguration (field com.prodapt.app.onboardingwebserver.services.AuthUserDetailService com.prodapt.app.onboardingwebserver.config.SecurityConfiguration.userDetailService)
+???????
+
+
+Action:
+
+Relying upon circular references is discouraged and they are prohibited by default. Update your application to remove the dependency cycle between beans. As a last resort, it may be possible to break the cycle automatically by setting spring.main.allow-circular-references to true.
+
+2021-12-12 21:28:32,004 INFO com.prodapt.app.onboardingwebserver.OnboardingWebServerApplication [restartedMain] Starting OnboardingWebServerApplication using Java 17.0.1 on CLAP1807 with PID 19968 (D:\00_PreBAP_Project_Code\Development\Web_Services_Redis\target\classes started by kalangirajeev.k in D:\00_PreBAP_Project_Code\Development\Web_Services_Redis)
+2021-12-12 21:28:32,010 DEBUG com.prodapt.app.onboardingwebserver.OnboardingWebServerApplication [restartedMain] Running with Spring Boot v2.6.1, Spring v5.3.13
+2021-12-12 21:28:32,012 INFO com.prodapt.app.onboardingwebserver.OnboardingWebServerApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-12-12 21:28:35,339 DEBUG com.prodapt.app.onboardingwebserver.filter.JwtFilter [restartedMain] Filter 'jwtFilter' configured for use
+2021-12-12 21:28:36,447 TRACE org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [restartedMain] 
+	c.p.a.o.c.AuthController:
+	{POST [/auth]}: authenticate(JwtRequest)
+2021-12-12 21:28:36,457 TRACE org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [restartedMain] 
+	c.p.a.o.c.BankDetailsController:
+	{PUT [/bank-details/update/{id}]}: update(BankDetails,String)
+	{DELETE [/bank-details/delete/{id}]}: delete(String)
+	{POST [/bank-details/save]}: save(BankDetails)
+	{GET [/bank-details/get/all]}: findAll()
+	{GET [/bank-details/get/empid/{empid}]}: findByEmpId(String)
+	{GET [/bank-details/get/emp-name/{emp-name}]}: findByEmpName(String)
+	{GET [/bank-details/get/{id}]}: findById(String)
+2021-12-12 21:28:36,464 TRACE org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [restartedMain] 
+	c.p.a.o.c.CandidateController:
+	{GET [/candidate/get/email/{email}]}: getCandidateByEmail(String)
+	{PUT [/candidate/update-password/{id}]}: updateCandidatePassword(String,Candidate)
+	{POST [/candidate/register]}: registerCandidate(Candidate)
+	{PUT [/candidate/update/{id}]}: updateCandidate(String,Candidate)
+	{GET [/candidate/get/all]}: getAllCandidates(Pageable)
+	{GET [/candidate/get/{id}]}: getCandidateById(String)
+	{DELETE [/candidate/delete/{id}]}: deleteCandidate(String)
+	{GET [/candidate/get/name/{name}]}: getCandidateByName(String)
+2021-12-12 21:28:36,486 TRACE org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [restartedMain] 
+	c.p.a.o.c.CandidateDetailsController:
+	{PUT [/candidate-details/update/{id}]}: update(String,CandidateDetails)
+	{DELETE [/candidate-details/delete/{id}]}: delete(String)
+	{POST [/candidate-details/save]}: save(CandidateDetails)
+	{GET [/candidate-details/{id}/get-address/{addrId}]}: getAddress(String,String)
+	{GET [/candidate-details/{id}/get-language/{langId}]}: getLanguage(String,String)
+	{GET [/candidate-details/get/all]}: getAll()
+	{PUT [/candidate-details/{id}/update-specialization/{splId}]}: updateSpecialization(String,String,Specialization)
+	{DELETE [/candidate-details/{id}/delete-specialization/{splId}]}: deleteSpecialization(String,String)
+	{GET [/candidate-details/get/email/{email}]}: getByEmail(String)
+	{POST [/candidate-details/{id}/save-address]}: saveAddress(String,Address)
+	{PUT [/candidate-details/approve/{id}/{hrEmail}]}: approveCandidate(String,String)
+	{GET [/candidate-details/get/{id}]}: getById(String)
+	{GET [/candidate-details/get/bloodgroup/{bloodGroup}]}: getByBloodGroup(String)
+	{GET [/candidate-details/get/empid/{empId}]}: getByEmpId(String)
+	{PUT [/candidate-details/{id}/update-address/{addrId}]}: updateAddress(String,String,Address)
+	{PUT [/candidate-details/{id}/update-identity/{idenId}]}: updateIdentity(String,String,Identity)
+	{POST [/candidate-details/{id}/save-language]}: saveLanguage(String,Language)
+	{DELETE [/candidate-details/{id}/delete-identity/{idenId}]}: deleteIdentity(String,String)
+	{GET [/candidate-details/{id}/get-identity/{idenId}]}: getIdentity(String,String)
+	{POST [/candidate-details/{id}/save-identity]}: saveIdentity(String,Identity)
+	{DELETE [/candidate-details/{id}/delete-address/{addrId}]}: deleteAddress(String,String)
+	{POST [/candidate-details/{id}/save-work]}: saveWork(String,Work)
+	{POST [/candidate-details/{id}/save-education]}: saveEducation(String,Education)
+	{DELETE [/candidate-details/{id}/delete-language/{langId}]}: deleteLanguage(String,String)
+	{GET [/candidate-details/{id}/get-education/{eduId}]}: getEducation(String,String)
+	{PUT [/candidate-details/{id}/update-language/{langId}]}: updateLanguage(String,String,Language)
+	{GET [/candidate-details/{id}/get-work/{workId}]}: getWork(String,String)
+	{PUT [/candidate-details/{id}/update-education/{eduId}]}: updateEducation(String,String,Education)
+	{DELETE [/candidate-details/{id}/delete-education/{eduId}]}: deleteEducation(String,String)
+	{GET [/candidate-details/{id}/get-travel/{travelId}]}: getTravel(String,String)
+	{POST [/candidate-details/{id}/save-travel]}: saveTravel(String,Travel)
+	{PUT [/candidate-details/{id}/update-travel/{travelId}]}: updateTravel(String,String,Travel)
+	{DELETE [/candidate-details/{id}/delete-travel/{travelId}]}: deleteTravel(String,String)
+	{PUT [/candidate-details/{id}/update-work/{workId}]}: updateWork(String,String,Work)
+	{POST [/candidate-details/{id}/save-specialization]}: saveSpecilization(String,Specialization)
+	{DELETE [/candidate-details/{id}/delete-work/{workId}]}: deleteWork(String,String)
+	{GET [/candidate-details/{id}/get-specialization/{splId}]}: getSpecialization(String,String)
+	{POST [/candidate-details/{id}/save-refperson]}: saveRefPerson(String,RefPerson)
+	{GET [/candidate-details/{id}/get-refperson/{refId}]}: getRefPerson(String,String)
+	{PUT [/candidate-details/{id}/update-refperson/{refId}]}: updateRefPerson(String,String,RefPerson)
+	{DELETE [/candidate-details/{id}/delete-refperson/{refId}]}: deleteRefPerson(String,String)
+2021-12-12 21:28:36,512 TRACE org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [restartedMain] 
+	c.p.a.o.c.DeclarationsController:
+	{PUT [/declarations/update/{id}]}: update(Declarations,String)
+	{DELETE [/declarations/delete/{id}]}: delete(String)
+	{POST [/declarations/save]}: save(Declarations)
+	{GET [/declarations/get/all]}: findAll()
+	{GET [/declarations/get/empid/{empid}]}: findByEmpId(String)
+	{GET [/declarations/get/emp-name/{emp-name}]}: findByEmpName(String)
+	{GET [/declarations/get/{id}]}: findById(String)
+	{POST [/declarations/{id}/save-document]}: saveDocument(String,Document)
+	{PUT [/declarations/{id}/update-document/{docId}]}: updateDocument(String,String,Document)
+	{DELETE [/declarations/{id}/delete-document/{docId}]}: deleteDocument(String,String)
+2021-12-12 21:28:36,529 TRACE org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [restartedMain] 
+	c.p.a.o.c.EPFKYCController:
+	{PUT [/epf-kyc/update/{id}]}: update(String,EPFKYCDetails)
+	{DELETE [/epf-kyc/delete/{id}]}: delete(String)
+	{POST [/epf-kyc/save]}: save(EPFKYCDetails)
+	{GET [/epf-kyc/get/all]}: findAll()
+	{GET [/epf-kyc/get/empid/{empid}]}: findByEmpId(String)
+	{GET [/epf-kyc/get/{id}]}: findById(String)
+	{POST [/epf-kyc/{id}/save-kyc-detail]}: saveKYCDetail(String,KYCDetail)
+	{PUT [/epf-kyc/{id}/update-kyc-detail/{kycId}]}: updateKYCDetail(String,String,KYCDetail)
+	{DELETE [/epf-kyc/{id}/delete-kyc-detail/{kycId}]}: deleteKYCDetail(String,String)
+2021-12-12 21:28:36,540 TRACE org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [restartedMain] 
+	c.p.a.o.c.EPFNominationController:
+	{PUT [/epf-nomination/update/{id}]}: update(String,EPFNomination)
+	{DELETE [/epf-nomination/delete/{id}]}: delete(String)
+	{POST [/epf-nomination/save]}: save(EPFNomination)
+	{GET [/epf-nomination/get/all]}: findAll()
+	{GET [/epf-nomination/get/empid/{empid}]}: findByEmpId(String)
+	{GET [/epf-nomination/get/emp-name/{emp-name}]}: findByEmpName(String)
+	{GET [/epf-nomination/get/{id}]}: findById(String)
+	{POST [/epf-nomination/{id}/save-epf-nominee]}: saveEPFNominee(String,EPFNominee)
+	{DELETE [/epf-nomination/{id}/delete-epf-nominee/{nomId}]}: deleteEPFNominee(String,String)
+	{POST [/epf-nomination/{id}/save-eps-family]}: saveFamily(String,EPSFamily)
+	{PUT [/epf-nomination/{id}/update-epf-nominee/{nomId}]}: updateEPFNominee(String,String,EPFNominee)
+	{DELETE [/epf-nomination/{id}/delete-nominee/{nomId}]}: deleteNominee(String,String)
+	{PUT [/epf-nomination/{id}/update-nominee/{nomId}]}: updateNominee(String,String,EPFNominee)
+	{POST [/epf-nomination/{id}/save-nominee]}: saveNominee(String,EPFNominee)
+	{DELETE [/epf-nomination/{id}/delete-eps-family/{famId}]}: deleteFamily(String,String)
+	{PUT [/epf-nomination/{id}/update-eps-family/{famId}]}: updatefamily(String,String,EPSFamily)
+2021-12-12 21:28:36,547 TRACE org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [restartedMain] 
+	c.p.a.o.c.EmailController:
+	{POST [/email/send-with-attachment]}: sendEmailWithAttachemnt(Email)
+	{POST [/email/send-general-attachment]}: sendEmailTemplateWithAttachemnt(Email)
+	{POST [/email/send-welcome]}: sendWelcomeEmail(Email)
+	{POST [/email/send-general]}: sendGeneralEmail(Email)
+	{POST [/email/send-general-hr]}: sendGeneralEmailHr(Email)
+	{POST [/email/send-simple]}: sendSimpleEmail(Email)
+2021-12-12 21:28:36,553 TRACE org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [restartedMain] 
+	c.p.a.o.c.ExportExcelController:
+	{GET [/export-excel/mediclaim/{fromDate},{toDate},{name}]}: exportMediclaimList(HttpServletResponse,long,long,String)
+	{GET [/export-excel/epf-kyc/{fromDate},{toDate},{name}]}: exportEPFKYCDetails(HttpServletResponse,long,long,String)
+	{GET [/export-excel/candidate-details/{fromDate},{toDate},{name}]}: exportCandidateDetails(HttpServletResponse,long,long,String)
+	{GET [/export-excel/bank-details/{fromDate},{toDate},{name}]}: exportBankDetails(HttpServletResponse,long,long,String)
+2021-12-12 21:28:36,557 TRACE org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [restartedMain] 
+	c.p.a.o.c.GratuityController:
+	{PUT [/gratuity/update/{id}]}: update(String,Gratuity)
+	{DELETE [/gratuity/delete/{id}]}: delete(String)
+	{POST [/gratuity/save]}: save(Gratuity)
+	{GET [/gratuity/get/all]}: findAll()
+	{GET [/gratuity/get/empid/{empid}]}: findByEmpId(String)
+	{GET [/gratuity/get/emp-name/{emp-name}]}: findByEmpName(String)
+	{GET [/gratuity/get/{id}]}: findById(String)
+	{DELETE [/gratuity/{id}/delete-nominee/{nomId}]}: deleteAddress(String,String)
+	{PUT [/gratuity/{id}/update-nominee/{nomId}]}: updateNominee(String,String,GratuityNominee)
+	{POST [/gratuity/{id}/save-nominee]}: saveNominee(String,GratuityNominee)
+2021-12-12 21:28:36,562 TRACE org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [restartedMain] 
+	c.p.a.o.c.HrUserController:
+	{GET [/hr-user/get/email/{email}]}: getCandidateByEmail(String)
+	{PUT [/hr-user/update-password/{id}]}: updateCandidatePassword(String,HrUser)
+	{GET [/hr-user/get/empcode/{empCode}]}: getCandidateByEmpCode(String)
+	{POST [/hr-user/register]}: registerCandidate(HrUser)
+	{PUT [/hr-user/update/{id}]}: updateCandidate(String,HrUser)
+	{GET [/hr-user/get/all]}: getAllCandidates()
+	{GET [/hr-user/get/id/{id}]}: getCandidateById(String)
+	{DELETE [/hr-user/delete/{id}]}: deleteCandidate(String)
+	{GET [/hr-user/get/name/{name}]}: getCandidateByName(String)
+2021-12-12 21:28:36,568 TRACE org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [restartedMain] 
+	c.p.a.o.c.IdCardController:
+	{PUT [/idcard/update/{id}]}: update(String,IdCard)
+	{DELETE [/idcard/delete/{id}]}: delete(String)
+	{POST [/idcard/save]}: save(IdCard)
+	{DELETE [/idcard/{id}/delete-vehicle/{vhId}]}: deleteVehicleDetails(String,String)
+	{PUT [/idcard/{id}/update-vehicle/{vhId}]}: updateVehicleDetails(String,String,Vehicle)
+	{GET [/idcard/get/empid/{empId}]}: getByEmpId(String)
+	{GET [/idcard/get/all]}: getAllIdCards()
+	{GET [/idcard/get/{id}]}: findIdCardById(String)
+	{POST [/idcard/{id}/save-vehicle]}: saveVehicleDetails(String,Vehicle)
+2021-12-12 21:28:36,576 TRACE org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [restartedMain] 
+	c.p.a.o.c.LandingPageController:
+	{PUT [/landing-page/update/{id}]}: update(String,LandingPage)
+	{DELETE [/landing-page/delete/{id}]}: delete(String)
+	{POST [/landing-page/save]}: save(LandingPage)
+	{GET [/landing-page/get/all]}: getAll()
+	{GET [/landing-page/get/{id}]}: getById(String)
+	{POST [/landing-page/{id}/save-hrbp]}: saveHrbp(String,ContactSpoc)
+	{PUT [/landing-page/{id}/update-hrbp/{hrbpId}]}: updateHrbp(String,String,ContactSpoc)
+	{POST [/landing-page/{id}/save-pro]}: savePro(String,ContactSpoc)
+	{DELETE [/landing-page/{id}/delete-pro/{proId}]}: deletepro(String,String)
+	{PUT [/landing-page/{id}/update-pro/{proId}]}: updatePro(String,String,ContactSpoc)
+	{POST [/landing-page/{id}/save-faq]}: saveFaq(String,FAQ)
+	{POST [/landing-page/{id}/save-home-doc]}: saveHomeDoc(String,HomeDoc)
+	{DELETE [/landing-page/{id}/delete-hrbp/{hrbpId}]}: deletehrbp(String,String)
+	{GET [/landing-page/{id}/get-pro/{proId}]}: getPro(String,String)
+	{GET [/landing-page/{id}/get-hrbp/{hrbpId}]}: getHrbp(String,String)
+	{GET [/landing-page/{id}/get-faq/{faqId}]}: getFaq(String,String)
+	{PUT [/landing-page/{id}/update-home-doc/{homeDocId}]}: updateHomeDoc(String,String,HomeDoc)
+	{DELETE [/landing-page/{id}/delete-faq/{faqId}]}: deleteFaq(String,String)
+	{PUT [/landing-page/{id}/update-faq/{faqId}]}: updateFaq(String,String,FAQ)
+	{POST [/landing-page/{id}/save-link]}: saveLink(String,Link)
+	{GET [/landing-page/{id}/get-home-doc/{homeDocId}]}: getHomeDoc(String,String)
+	{PUT [/landing-page/{id}/update-link/{linkId}]}: updateLink(String,String,Link)
+	{DELETE [/landing-page/{id}/delete-home-doc/{homeDocId}]}: deleteHomeDoc(String,String)
+	{GET [/landing-page/{id}/get-link/{linkId}]}: getLink(String,String)
+	{POST [/landing-page/{id}/save-youtube-link]}: saveYoutubeLink(String,Link)
+	{PUT [/landing-page/{id}/update-youtube-link/{linkId}]}: updateYoutubeLink(String,String,Link)
+	{DELETE [/landing-page/{id}/delete-youtube-link/{linkId}]}: deleteYoutubeLink(String,String)
+	{GET [/landing-page/{id}/get-youtube-link/{linkId}]}: getYoutubeLink(String,String)
+	{DELETE [/landing-page/{id}/delete-link/{linkId}]}: deleteLink(String,String)
+2021-12-12 21:28:36,587 TRACE org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [restartedMain] 
+	c.p.a.o.c.MediclaimController:
+	{PUT [/mediclaim/update/{id}]}: update(String,Mediclaim)
+	{DELETE [/mediclaim/delete/{id}]}: delete(String)
+	{POST [/mediclaim/save]}: save(Mediclaim)
+	{GET [/mediclaim/get/name/{name}]}: getByName(String)
+	{GET [/mediclaim/get/all]}: getAll()
+	{GET [/mediclaim/get/id/{id}]}: getById(String)
+	{GET [/mediclaim/get/empid/{empid}]}: getByEmpId(String)
+	{GET [/mediclaim/get/dateofjoining/{doj}]}: getByDateOfJoining(Long)
+	{POST [/mediclaim/{id}/save-relation]}: saveRelation(String,Relation)
+	{GET [/mediclaim/get/dateofbirth/{dob}]}: getByDateOfBirth(Long)
+	{DELETE [/mediclaim/{id}/delete-relation/{rid}]}: deleteRelation(String,String)
+	{PUT [/mediclaim/{id}/update-relation/{rid}]}: updateRelation(String,String,Relation)
+2021-12-12 21:28:36,596 TRACE org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [restartedMain] 
+	o.s.b.a.w.s.e.BasicErrorController:
+	{ [/error]}: error(HttpServletRequest)
+	{ [/error], produces [text/html]}: errorHtml(HttpServletRequest,HttpServletResponse)
+2021-12-12 21:28:36,629 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [restartedMain] 173 mappings in 'requestMappingHandlerMapping'
+2021-12-12 21:28:36,642 DEBUG org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping [restartedMain] Detected 0 mappings in 'beanNameHandlerMapping'
+2021-12-12 21:28:36,675 TRACE org.springframework.web.servlet.function.support.RouterFunctionMapping [restartedMain] 0 RouterFunction(s) in 'routerFunctionMapping'
+2021-12-12 21:28:36,838 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter [restartedMain] ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2021-12-12 21:28:36,924 DEBUG org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver [restartedMain] ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2021-12-12 21:28:38,772 DEBUG org.springframework.web.client.RestTemplate [restartedMain] HTTP GET http://localhost:8761/eureka/apps/
+2021-12-12 21:28:39,013 DEBUG org.springframework.web.client.RestTemplate [restartedMain] Accept=[application/json, application/*+json]
+2021-12-12 21:28:39,097 DEBUG org.springframework.web.client.RestTemplate [restartedMain] Response 200 OK
+2021-12-12 21:28:39,100 DEBUG org.springframework.web.client.RestTemplate [restartedMain] Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2021-12-12 21:28:39,195 DEBUG org.springframework.web.client.RestTemplate [DiscoveryClient-InstanceInfoReplicator-0] HTTP POST http://localhost:8761/eureka/apps/PREBAP-INDIA-SERVICE
+2021-12-12 21:28:39,199 DEBUG org.springframework.web.client.RestTemplate [DiscoveryClient-InstanceInfoReplicator-0] Accept=[application/json, application/*+json]
+2021-12-12 21:28:39,233 DEBUG org.springframework.web.client.RestTemplate [DiscoveryClient-InstanceInfoReplicator-0] Writing [InstanceInfo [instanceId = host.docker.internal:prebap-india-service:443, appName = PREBAP-INDIA-SERVICE, hostName = host.docker.internal, status = UP, ipAddr = 192.168.0.11, port = 443, securePort = 443, dataCenterInfo = com.netflix.appinfo.MyDataCenterInfo@6c525a37] as "application/json"
+2021-12-12 21:28:39,319 DEBUG org.springframework.web.client.RestTemplate [DiscoveryClient-InstanceInfoReplicator-0] Response 204 NO_CONTENT
+2021-12-12 21:28:39,700 TRACE org.springframework.web.servlet.resource.ResourceUrlProvider [restartedMain] No resource handling mappings found
+2021-12-12 21:28:39,704 INFO com.prodapt.app.onboardingwebserver.OnboardingWebServerApplication [restartedMain] Started OnboardingWebServerApplication in 8.51 seconds (JVM running for 9.437)
+2021-12-12 21:29:09,164 DEBUG org.springframework.web.client.RestTemplate [DiscoveryClient-CacheRefreshExecutor-0] HTTP GET http://localhost:8761/eureka/apps/delta
+2021-12-12 21:29:09,165 DEBUG org.springframework.web.client.RestTemplate [DiscoveryClient-CacheRefreshExecutor-0] Accept=[application/json, application/*+json]
+2021-12-12 21:29:09,166 DEBUG org.springframework.web.client.RestTemplate [DiscoveryClient-HeartbeatExecutor-0] HTTP PUT http://localhost:8761/eureka/apps/PREBAP-INDIA-SERVICE/host.docker.internal:prebap-india-service:443?status=UP&lastDirtyTimestamp=1639324719182
+2021-12-12 21:29:09,173 DEBUG org.springframework.web.client.RestTemplate [DiscoveryClient-CacheRefreshExecutor-0] Response 200 OK
+2021-12-12 21:29:09,174 DEBUG org.springframework.web.client.RestTemplate [DiscoveryClient-CacheRefreshExecutor-0] Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2021-12-12 21:29:09,195 DEBUG org.springframework.web.client.RestTemplate [DiscoveryClient-HeartbeatExecutor-0] Accept=[application/json, application/*+json]
+2021-12-12 21:29:09,203 DEBUG org.springframework.web.client.RestTemplate [DiscoveryClient-HeartbeatExecutor-0] Response 200 OK
+2021-12-12 21:29:39,195 DEBUG org.springframework.web.client.RestTemplate [DiscoveryClient-CacheRefreshExecutor-0] HTTP GET http://localhost:8761/eureka/apps/delta
+2021-12-12 21:29:39,197 DEBUG org.springframework.web.client.RestTemplate [DiscoveryClient-CacheRefreshExecutor-0] Accept=[application/json, application/*+json]
+2021-12-12 21:29:39,203 DEBUG org.springframework.web.client.RestTemplate [DiscoveryClient-CacheRefreshExecutor-0] Response 200 OK
+2021-12-12 21:29:39,205 DEBUG org.springframework.web.client.RestTemplate [DiscoveryClient-CacheRefreshExecutor-0] Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2021-12-12 21:29:39,210 DEBUG org.springframework.web.client.RestTemplate [DiscoveryClient-HeartbeatExecutor-0] HTTP PUT http://localhost:8761/eureka/apps/PREBAP-INDIA-SERVICE/host.docker.internal:prebap-india-service:443?status=UP&lastDirtyTimestamp=1639324719182
+2021-12-12 21:29:39,211 DEBUG org.springframework.web.client.RestTemplate [DiscoveryClient-HeartbeatExecutor-0] Accept=[application/json, application/*+json]
+2021-12-12 21:29:39,219 DEBUG org.springframework.web.client.RestTemplate [DiscoveryClient-HeartbeatExecutor-0] Response 200 OK
+2021-12-12 21:29:51,471 INFO org.springframework.web.servlet.DispatcherServlet [https-jsse-nio-443-exec-2] Initializing Servlet 'dispatcherServlet'
+2021-12-12 21:29:51,480 TRACE org.springframework.web.servlet.DispatcherServlet [https-jsse-nio-443-exec-2] Detected org.springframework.web.multipart.support.StandardServletMultipartResolver@7984866b
+2021-12-12 21:29:51,481 TRACE org.springframework.web.servlet.DispatcherServlet [https-jsse-nio-443-exec-2] Detected org.springframework.web.servlet.i18n.AcceptHeaderLocaleResolver@70c225f4
+2021-12-12 21:29:51,482 TRACE org.springframework.web.servlet.DispatcherServlet [https-jsse-nio-443-exec-2] Detected org.springframework.web.servlet.theme.FixedThemeResolver@29ae07c1
+2021-12-12 21:29:51,485 TRACE org.springframework.web.servlet.DispatcherServlet [https-jsse-nio-443-exec-2] Detected DefaultRequestToViewNameTranslator
+2021-12-12 21:29:51,487 TRACE org.springframework.web.servlet.DispatcherServlet [https-jsse-nio-443-exec-2] Detected SessionFlashMapManager
+2021-12-12 21:29:51,487 DEBUG org.springframework.web.servlet.DispatcherServlet [https-jsse-nio-443-exec-2] enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2021-12-12 21:29:51,488 INFO org.springframework.web.servlet.DispatcherServlet [https-jsse-nio-443-exec-2] Completed initialization in 8 ms
+2021-12-12 21:29:59,972 TRACE org.springframework.web.servlet.DispatcherServlet [https-jsse-nio-443-exec-4] GET "/actuator/info", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2021-12-12 21:29:59,980 WARN org.springframework.web.servlet.PageNotFound [https-jsse-nio-443-exec-4] No mapping for GET /actuator/info
+2021-12-12 21:29:59,982 DEBUG org.springframework.web.servlet.DispatcherServlet [https-jsse-nio-443-exec-4] Completed 404 NOT_FOUND, headers={masked}
+2021-12-12 21:30:09,211 DEBUG org.springframework.web.client.RestTemplate [DiscoveryClient-CacheRefreshExecutor-0] HTTP GET http://localhost:8761/eureka/apps/delta
+2021-12-12 21:30:09,212 DEBUG org.springframework.web.client.RestTemplate [DiscoveryClient-CacheRefreshExecutor-0] Accept=[application/json, application/*+json]
+2021-12-12 21:30:09,219 DEBUG org.springframework.web.client.RestTemplate [DiscoveryClient-CacheRefreshExecutor-0] Response 200 OK
+2021-12-12 21:30:09,220 DEBUG org.springframework.web.client.RestTemplate [DiscoveryClient-CacheRefreshExecutor-0] Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2021-12-12 21:30:09,225 DEBUG org.springframework.web.client.RestTemplate [DiscoveryClient-HeartbeatExecutor-0] HTTP PUT http://localhost:8761/eureka/apps/PREBAP-INDIA-SERVICE/host.docker.internal:prebap-india-service:443?status=UP&lastDirtyTimestamp=1639324719182
+2021-12-12 21:30:09,227 DEBUG org.springframework.web.client.RestTemplate [DiscoveryClient-HeartbeatExecutor-0] Accept=[application/json, application/*+json]
+2021-12-12 21:30:09,234 DEBUG org.springframework.web.client.RestTemplate [DiscoveryClient-HeartbeatExecutor-0] Response 200 OK
+2021-12-12 21:30:39,235 DEBUG org.springframework.web.client.RestTemplate [DiscoveryClient-CacheRefreshExecutor-0] HTTP GET http://localhost:8761/eureka/apps/delta
+2021-12-12 21:30:39,236 DEBUG org.springframework.web.client.RestTemplate [DiscoveryClient-CacheRefreshExecutor-0] Accept=[application/json, application/*+json]
+2021-12-12 21:30:39,241 DEBUG org.springframework.web.client.RestTemplate [DiscoveryClient-CacheRefreshExecutor-0] Response 200 OK
+2021-12-12 21:30:39,241 DEBUG org.springframework.web.client.RestTemplate [DiscoveryClient-CacheRefreshExecutor-0] Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2021-12-12 21:30:39,243 DEBUG org.springframework.web.client.RestTemplate [DiscoveryClient-HeartbeatExecutor-0] HTTP PUT http://localhost:8761/eureka/apps/PREBAP-INDIA-SERVICE/host.docker.internal:prebap-india-service:443?status=UP&lastDirtyTimestamp=1639324719182
+2021-12-12 21:30:39,244 DEBUG org.springframework.web.client.RestTemplate [DiscoveryClient-HeartbeatExecutor-0] Accept=[application/json, application/*+json]
+2021-12-12 21:30:39,249 DEBUG org.springframework.web.client.RestTemplate [DiscoveryClient-HeartbeatExecutor-0] Response 200 OK
+2021-12-12 21:31:09,244 DEBUG org.springframework.web.client.RestTemplate [DiscoveryClient-CacheRefreshExecutor-0] HTTP GET http://localhost:8761/eureka/apps/delta
+2021-12-12 21:31:09,245 DEBUG org.springframework.web.client.RestTemplate [DiscoveryClient-CacheRefreshExecutor-0] Accept=[application/json, application/*+json]
+2021-12-12 21:31:09,251 DEBUG org.springframework.web.client.RestTemplate [DiscoveryClient-CacheRefreshExecutor-0] Response 200 OK
+2021-12-12 21:31:09,252 DEBUG org.springframework.web.client.RestTemplate [DiscoveryClient-CacheRefreshExecutor-0] Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2021-12-12 21:31:09,256 DEBUG org.springframework.web.client.RestTemplate [DiscoveryClient-HeartbeatExecutor-0] HTTP PUT http://localhost:8761/eureka/apps/PREBAP-INDIA-SERVICE/host.docker.internal:prebap-india-service:443?status=UP&lastDirtyTimestamp=1639324719182
+2021-12-12 21:31:09,257 DEBUG org.springframework.web.client.RestTemplate [DiscoveryClient-HeartbeatExecutor-0] Accept=[application/json, application/*+json]
+2021-12-12 21:31:09,266 DEBUG org.springframework.web.client.RestTemplate [DiscoveryClient-HeartbeatExecutor-0] Response 200 OK
+2021-12-12 21:31:39,260 DEBUG org.springframework.web.client.RestTemplate [DiscoveryClient-CacheRefreshExecutor-0] HTTP GET http://localhost:8761/eureka/apps/delta
+2021-12-12 21:31:39,262 DEBUG org.springframework.web.client.RestTemplate [DiscoveryClient-CacheRefreshExecutor-0] Accept=[application/json, application/*+json]
+2021-12-12 21:31:39,268 DEBUG org.springframework.web.client.RestTemplate [DiscoveryClient-CacheRefreshExecutor-0] Response 200 OK
+2021-12-12 21:31:39,270 DEBUG org.springframework.web.client.RestTemplate [DiscoveryClient-CacheRefreshExecutor-0] Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2021-12-12 21:31:39,274 DEBUG org.springframework.web.client.RestTemplate [DiscoveryClient-HeartbeatExecutor-0] HTTP PUT http://localhost:8761/eureka/apps/PREBAP-INDIA-SERVICE/host.docker.internal:prebap-india-service:443?status=UP&lastDirtyTimestamp=1639324719182
+2021-12-12 21:31:39,276 DEBUG org.springframework.web.client.RestTemplate [DiscoveryClient-HeartbeatExecutor-0] Accept=[application/json, application/*+json]
+2021-12-12 21:31:39,281 DEBUG org.springframework.web.client.RestTemplate [DiscoveryClient-HeartbeatExecutor-0] Response 200 OK
+2021-12-12 21:32:09,276 DEBUG org.springframework.web.client.RestTemplate [DiscoveryClient-CacheRefreshExecutor-0] HTTP GET http://localhost:8761/eureka/apps/delta
+2021-12-12 21:32:09,277 DEBUG org.springframework.web.client.RestTemplate [DiscoveryClient-CacheRefreshExecutor-0] Accept=[application/json, application/*+json]
+2021-12-12 21:32:09,283 DEBUG org.springframework.web.client.RestTemplate [DiscoveryClient-CacheRefreshExecutor-0] Response 200 OK
+2021-12-12 21:32:09,284 DEBUG org.springframework.web.client.RestTemplate [DiscoveryClient-CacheRefreshExecutor-0] Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2021-12-12 21:32:09,290 DEBUG org.springframework.web.client.RestTemplate [DiscoveryClient-HeartbeatExecutor-0] HTTP PUT http://localhost:8761/eureka/apps/PREBAP-INDIA-SERVICE/host.docker.internal:prebap-india-service:443?status=UP&lastDirtyTimestamp=1639324719182
+2021-12-12 21:32:09,291 DEBUG org.springframework.web.client.RestTemplate [DiscoveryClient-HeartbeatExecutor-0] Accept=[application/json, application/*+json]
+2021-12-12 21:32:09,298 DEBUG org.springframework.web.client.RestTemplate [DiscoveryClient-HeartbeatExecutor-0] Response 200 OK
+2021-12-12 21:32:39,293 DEBUG org.springframework.web.client.RestTemplate [DiscoveryClient-CacheRefreshExecutor-0] HTTP GET http://localhost:8761/eureka/apps/delta
+2021-12-12 21:32:39,294 DEBUG org.springframework.web.client.RestTemplate [DiscoveryClient-CacheRefreshExecutor-0] Accept=[application/json, application/*+json]
+2021-12-12 21:32:39,300 DEBUG org.springframework.web.client.RestTemplate [DiscoveryClient-CacheRefreshExecutor-0] Response 200 OK
+2021-12-12 21:32:39,300 DEBUG org.springframework.web.client.RestTemplate [DiscoveryClient-HeartbeatExecutor-0] HTTP PUT http://localhost:8761/eureka/apps/PREBAP-INDIA-SERVICE/host.docker.internal:prebap-india-service:443?status=UP&lastDirtyTimestamp=1639324719182
+2021-12-12 21:32:39,301 DEBUG org.springframework.web.client.RestTemplate [DiscoveryClient-CacheRefreshExecutor-0] Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2021-12-12 21:32:39,302 DEBUG org.springframework.web.client.RestTemplate [DiscoveryClient-HeartbeatExecutor-0] Accept=[application/json, application/*+json]
+2021-12-12 21:32:39,308 DEBUG org.springframework.web.client.RestTemplate [DiscoveryClient-HeartbeatExecutor-0] Response 200 OK
+2021-12-12 21:33:09,314 DEBUG org.springframework.web.client.RestTemplate [DiscoveryClient-CacheRefreshExecutor-0] HTTP GET http://localhost:8761/eureka/apps/delta
+2021-12-12 21:33:09,314 DEBUG org.springframework.web.client.RestTemplate [DiscoveryClient-HeartbeatExecutor-0] HTTP PUT http://localhost:8761/eureka/apps/PREBAP-INDIA-SERVICE/host.docker.internal:prebap-india-service:443?status=UP&lastDirtyTimestamp=1639324719182
+2021-12-12 21:33:09,314 DEBUG org.springframework.web.client.RestTemplate [DiscoveryClient-CacheRefreshExecutor-0] Accept=[application/json, application/*+json]
+2021-12-12 21:33:09,315 DEBUG org.springframework.web.client.RestTemplate [DiscoveryClient-HeartbeatExecutor-0] Accept=[application/json, application/*+json]
+2021-12-12 21:33:09,320 DEBUG org.springframework.web.client.RestTemplate [DiscoveryClient-CacheRefreshExecutor-0] Response 200 OK
+2021-12-12 21:33:09,320 DEBUG org.springframework.web.client.RestTemplate [DiscoveryClient-HeartbeatExecutor-0] Response 200 OK
+2021-12-12 21:33:09,320 DEBUG org.springframework.web.client.RestTemplate [DiscoveryClient-CacheRefreshExecutor-0] Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2021-12-12 21:33:39,333 DEBUG org.springframework.web.client.RestTemplate [DiscoveryClient-CacheRefreshExecutor-0] HTTP GET http://localhost:8761/eureka/apps/delta
+2021-12-12 21:33:39,333 DEBUG org.springframework.web.client.RestTemplate [DiscoveryClient-HeartbeatExecutor-0] HTTP PUT http://localhost:8761/eureka/apps/PREBAP-INDIA-SERVICE/host.docker.internal:prebap-india-service:443?status=UP&lastDirtyTimestamp=1639324719182
+2021-12-12 21:33:39,334 DEBUG org.springframework.web.client.RestTemplate [DiscoveryClient-CacheRefreshExecutor-0] Accept=[application/json, application/*+json]
+2021-12-12 21:33:39,335 DEBUG org.springframework.web.client.RestTemplate [DiscoveryClient-HeartbeatExecutor-0] Accept=[application/json, application/*+json]
+2021-12-12 21:33:39,340 DEBUG org.springframework.web.client.RestTemplate [DiscoveryClient-CacheRefreshExecutor-0] Response 200 OK
+2021-12-12 21:33:39,341 DEBUG org.springframework.web.client.RestTemplate [DiscoveryClient-HeartbeatExecutor-0] Response 200 OK
+2021-12-12 21:33:39,341 DEBUG org.springframework.web.client.RestTemplate [DiscoveryClient-CacheRefreshExecutor-0] Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]

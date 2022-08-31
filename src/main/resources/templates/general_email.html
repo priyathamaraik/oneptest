@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+
+<head>
+	<meta charset="utf-8">
+	<title>Pre BAP - General Email</title>
+	<link th:href="@{css/welcome_email.css}" href="../static/css/welcome_email.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+		integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
+</head>
+
+<body>
+	<div class="email-container" th:style="'border-style:ridge;border-color:#d93c35;border-width:1px;'">
+		<div class="top-container" th:style="'display:flex;justify-content:space-between;color: #d93c35; padding: 1rem 2rem;
+			border-style:ridge;border-color:#d93c35;border-width:1px;'" style="display:flex;justify-content:space-between; color: #d93c35; padding: 1rem 2rem;
+			border-style:ridge;border-color:#d93c35;border-width:1px;">
+			<table style="width: 100%;" th:style="'width: 100%;'">
+				<tr>
+					<td colspan="1">
+						<h1>Update from Prodapt</h1>
+					<td colspan="1" style="display:flex; justify-content:end;align-content: flex-end;"
+						th:style="'display:flex; justify-content:end;align-content: flex-end;'">
+						<div>
+							<img class="img-fluid pull-right fit-picture"
+								th:src="@{https://www.prodapt.com/wp-content/uploads/New-Prodapt_Slightly-Bigger-Version.png}"
+								src="https://www.prodapt.com/wp-content/uploads/New-Prodapt_Slightly-Bigger-Version.png"
+								th:style="'padding:2rem 0 0 2rem; width:280px; margin-left:50%; margin-right: 2rem;'"
+								style="padding:2rem 0 0 2rem; width:280px; margin-left:50%; margin-right: 2rem;"
+								alt="Prodapt Logo">
+						</div>
+					</td>
+				</tr>
+			</table>
+		</div>
+		<div th:style="'padding:2rem;'">
+			<div class="intro-container" th:style="'display:flex;justify-content:flex-end;'">
+				<p th:style="'color:#d93c35;'">
+					<span th:text="${'Dear ' +name}"></span>
+				</p>
+			</div>
+			<div>
+				<p th:text="${intro}"></p>
+			</div>
+			<div class="body-container">
+				<p th:text="${body}"></p>
+			</div>
+			<div class="bottom-container">
+				<p class="signature-container">
+					Regards, <br>
+					Pre BAP Team
+				</p>
+			</div>
+
+		</div>
+	</div>
+</body>
+
+</html>

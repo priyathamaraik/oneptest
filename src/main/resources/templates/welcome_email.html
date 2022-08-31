@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+
+<head>
+	<meta charset="utf-8">
+	<title>Pre BAP - Welcome Email</title>
+	<link th:href="@{css/welcome_email.css}" href="../static/css/welcome_email.css" rel="stylesheet">
+	<link rel="stylesheet" th:href="@{https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css}"
+		href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+		integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
+</head>
+
+<body>
+	<div class="email-container" th:style="'border-style:ridge;border-color:#d93c35;border-width:1px;'">
+		<div class="top-container" th:style="'display:flex;justify-content:space-between;color: #d93c35; padding: 1rem 2rem;
+			border-style:ridge;border-color:#d93c35;border-width:1px;'" style="display:flex;justify-content:space-between; color: #d93c35; padding: 1rem 2rem;
+			border-style:ridge;border-color:#d93c35;border-width:1px;">
+			<table style="width: 100%;" th:style="'width: 100%;'">
+				<tr>
+					<td colspan="1">
+						<h1>Welcome to Prodapt</h1>
+					<td colspan="1" style="display:flex; justify-content:end; align-content: flex-end;"
+						th:style="'display:flex; justify-content:end; align-content: flex-end;'">
+						<div>
+							<img class="img-fluid pull-right fit-picture"
+								th:src="@{https://www.prodapt.com/wp-content/uploads/New-Prodapt_Slightly-Bigger-Version.png}"
+								src="https://www.prodapt.com/wp-content/uploads/New-Prodapt_Slightly-Bigger-Version.png"
+								th:style="'padding:2rem 0 0 2rem; width:280px; margin-left:50%; margin-right: 2rem;'"
+								style="padding:2rem 0 0 2rem; width:280px; margin-left:50%; margin-right: 2rem;"
+								alt="Prodapt Logo">
+						</div>
+					</td>
+				</tr>
+			</table>
+		</div>
+		<div th:style="'padding:2rem;'">
+
+			<div class="content-container">
+				<h2 th:style="'color:#d93c35;'">
+					Dear Prodaptian,
+				</h2>
+				<h2 th:style="'color:#4da1f8;'">
+					Welcome
+				</h2>
+				<h2 th:style="'color:#98ce00;'">
+					The first step to a successful career
+				</h2>
+				<p>
+					Congratulation on joining the biggest talent in the industry at Prodapt, we welcome you aboard as
+					you
+					are
+					now an integral part of a rich legacy of growth, a professional culture, a growing clientele, a
+					bright
+					pool
+					of talent and the perfect platform to launch your career, just the way you want to.
+				</p>
+				<p>
+					We wanted you to have a great experience with Prodapt and ensure that you are given the right
+					guidance
+					as
+					you settle into your workplaces.
+				</p>
+				<p>
+					To get you started, we have enclosed below the Pre-BAP link for your ready reference and Onboarding
+					process,
+					we have also attached the guidelines designed to give you a broad overview of the application that
+					provides
+					you with great information as a New Hire you get to know . We believe you will have a great tenure
+					with
+					us.
+					All the best
+				</p>
+			</div>
+			<div class="body-container">
+				<h3 th:style="'color:#4da1f8;'">
+					Key Details:
+				</h3>
+				<div th:text="${body}"></div>
+				<br>
+			</div>
+			<div class="bottom-container">
+
+				<h3 th:style="'color:#4da1f8;'">
+					Key Contacts:
+				</h3>
+				<p>
+					<strong>Admin Team: </strong>
+					<a th:href="'mailto:DL-admin.support@prodapt.com'">DL-admin.support@prodapt.com</a> for site and
+					facility related requirements
+				</p>
+				<p>
+					<strong>IT Team: </strong>
+					<a th:href="'mailto:DL-itsupport@prodapt.com'">DL-itsupport@prodapt.com</a> for IT (email ID, ERP
+					portal and access related queries)
+				</p>
+				<p>
+					<strong>HR BP: </strong>
+					<a th:href="'mailto:DL-HRBP@prodapt.com'">DL-HRBP@prodapt.com</a> for payroll, ERP portal, PF,
+					attendance related, requests for letters,
+					policy related and other HR queries HR Business Partners for respective clusters
+				</p>
+				<p>
+					<strong>HR Ops: </strong>
+					<a th:href="'mailto:DL-PIHRops@prodapt.com'">DL-PIHRops@prodapt.com</a> for any HR related queries
+				</p>
+				<p>
+					<strong>Finance Team: </strong>
+					<a th:href="'mailto:DL-FinancePayroll@prodapt.com'">DL-FinancePayroll@prodapt.com</a> for queries on
+					salary, tax, claiming flexi benefits
+				</p>
+
+				<h3 th:style="'color:#4da1f8;'">
+					All the best!
+				</h3>
+				<p>
+					We want your experience at Prodapt to be as rewarding as possible. Although it is optional for you
+					to
+					review this information prior to your first day, we encourage you to explore the sites to learn more
+					about our organization and what you can expect after you join.
+				</p>
+				<p>
+					If you have any questions or comments, please contact us
+				</p>
+				<p>
+					Thank You.
+				</p>
+				<h3 th:style="'color:#4da1f8;'">
+					Get Set Go...
+				</h3>
+			</div>
+		</div>
+	</div>
+</body>
+
+</html>

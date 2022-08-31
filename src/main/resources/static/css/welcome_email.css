@@ -1,0 +1,49 @@
+.email-container {
+    font-family: 'Roboto', sans-serif;
+    display: grid;
+    justify-content: center;
+    margin: 2rem;
+    grid-template-columns: 1fr;
+    grid-template-rows: minmax(1rem, auto);
+    grid-template-areas:
+        "top-container"
+        "intro-container"
+        "content-container"
+        "body-container"
+        "bottom-container";
+}
+
+.top-container {
+    font-family: 'Roboto', sans-serif;
+    grid-area: top-container;
+    background-color: #ff0000;
+    color: #fff;
+    padding-left: 2rem;
+}
+
+.intro-container {
+    grid-area: intro-container;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.fit-picture {
+    padding: 2rem 0 0 2rem;
+    background-color: transparent;
+    width: 280px;
+    justify-content: center;
+}
+
+.content-container {
+    grid-area: content-container;
+    font-family: 'Montserrat', sans-serif;
+}
+.body-container {
+    grid-area: body-container;
+    font-family: 'Montserrat', sans-serif;
+}
+.bottom-container {
+    grid-area: bottom-container;
+    font-family: 'Montserrat', sans-serif;
+}
